@@ -1,11 +1,11 @@
 import React from 'react'
 
-// @TODO: export svgs and interpolate brand colors
+// @TODO: export svgs, or interpolate here, and add brand colors
 
 export default function PitchIconDescription() {
   return (
     <section id="pitch-icon-description">
-        <div className="container mx-auto flex flex-col items-center mt-32 text-center text-gray-700">
+        <div className="container mx-auto flex flex-col items-center mt-32 text-center text-gray-700 lg:mt-56">
         <h2 className="text-4xl font-bold md:text-5xl">How It Works</h2>
 
         <div className="gearbox">

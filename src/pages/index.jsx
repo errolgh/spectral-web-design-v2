@@ -6,6 +6,8 @@ import ThreeIconFeatures from '../components/ThreeIconFeatures.jsx'
 import PitchIconDescription from '../components/PitchIconDescription.jsx'
 import HorizontalFeatureImage from '../components/HorizontalFeatureImage.jsx'
 
+// @TODO: Change these all these components with props so we can keep our code dry
+
 // const pageStyles = {
 //   color: "#232129",
 //   padding: 96,
@@ -141,8 +143,6 @@ import HorizontalFeatureImage from '../components/HorizontalFeatureImage.jsx'
 //     color: '#663399',
 //   },
 // ]
-
-// @TODO: Change these all these components with props so we can keep our code dry
 
 const IndexPage = () => {
   return (
