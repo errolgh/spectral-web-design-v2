@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-gray-50;
+}
+
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
@@ -58,7 +62,6 @@
 .animate-right {
   @media (max-width: 768px) {
     transform: translateX(-100%);
-    /* transform: translateX(100%); dev ed */
   }
   transition: all 0.55s;
 }
@@ -131,4 +134,61 @@
 
 .active {
   @apply text-teal-600;
+}
+
+
+/* Gears */
+.gearbox {
+  opacity: 0.7;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  translate: 30%;
+  transform: translate(-15%, 0) rotate(-20deg);
+  margin: 0 auto 2.5rem;
+  max-width: 30%;
+  width: 50px;
+}
+
+.gear {
+  position: relative;
+  top: 20px;
+  right: 28px;
+}
+
+.dark-gear {
+  position: relative;
+  top: 12px;
+  right: 2px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .colored-gear {
+    animation: gear-spin-clock infinite 10s linear;
+  }
+}
+
+
+@keyframes gear-spin-clock {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .dark-gear {
+    animation: gear-spin-counter infinite 10s linear;
+  }
+}
+
+@keyframes gear-spin-counter {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
