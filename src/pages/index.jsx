@@ -5,8 +5,10 @@ import OffsetImageText from '../components/OffsetImageText.jsx'
 import ThreeIconFeatures from '../components/ThreeIconFeatures.jsx'
 import PitchIconDescription from '../components/PitchIconDescription.jsx'
 import HorizontalFeatureImage from '../components/HorizontalFeatureImage.jsx'
+import BannerCTA from '../components/BannerCTA.jsx'
+import Pricing from '../components/Pricing.jsx'
 
-// @TODO: Change these all these components with props so we can keep our code dry
+// @TODO: Change all these components with props so we can keep our code dry by importing variations to pages, not components-- data objects and files
 
 // const pageStyles = {
 //   color: "#232129",
@@ -152,6 +154,9 @@ const IndexPage = () => {
       <ThreeIconFeatures />
       <PitchIconDescription />
       <HorizontalFeatureImage />
+      <BannerCTA />
+      <Pricing />
+
       {/* <h1 style={headingStyles}>
         Congratulations
         <br />

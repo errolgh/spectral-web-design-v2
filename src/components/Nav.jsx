@@ -6,12 +6,14 @@ export default function Nav() {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="container mx-auto max-w-6xl relative flex items-center justify-between font-bold text-slate-600">
+    <nav className="container mx-auto max-w-6xl relative flex items-center justify-between font-bold text-[#002C58]">
       <div className="flex">
-        <div className="flex w-20 p-4 pt-6">
-          {/* <!-- Logo --> */}
-          <Owl />
-        </div>
+        <Link to="/">
+          <div className="flex w-20 p-4 pt-6">
+            {/* <!-- Logo --> */}
+            <Owl />
+          </div>
+        </Link>
         <div className="flex flex-col text-center justify-center">
           <span className="text-xl tracking-wider pr-1 hidden md:inline">
             Spectral
