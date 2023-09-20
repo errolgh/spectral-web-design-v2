@@ -10,6 +10,10 @@ module.exports = {
         efferBlue: '#00315A',
         darkEfferBlue: '#002c58',
       },
+      fontFamily: {
+        ubuntu: ["Ubuntu, sans-serif"],
+        poppins: ["Poppins, sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -5,7 +5,7 @@ import React from 'react'
 export default function PitchIconDescription() {
   return (
     <section id="pitch-icon-description">
-        <div className="container mx-auto flex flex-col items-center mt-32 text-center text-gray-700 lg:mt-56">
+        <div className="container mx-auto flex flex-col items-center mt-32 text-center lg:mt-56">
         <h2 className="text-4xl font-bold md:text-5xl">How It Works</h2>
 
         <div className="gearbox">
@@ -31,7 +31,7 @@ export default function PitchIconDescription() {
           <h3 className="text-xl font-bold mb-4 md:text-2xl">
             $0 down. Starting at $149 per month.
           </h3>
-          <p className="mx-auto max-w-2xl text-gray-500 leading-7">
+          <p className="mx-auto max-w-2xl">
             No money down for a standard website with up to 5 pages. Additional
             features or pages that exceed the scope of work can be achieved in
             custom-tailored packages.

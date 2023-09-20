@@ -125,7 +125,7 @@ export default function Footer() {
               <Instagram />
             </a>
           </div>
-          <div className="text-neutral-200 text-center md:text-left">
+          <div className="text-center md:text-left text-neutral-200">
             <p>© {new Date().getFullYear()} Spectral Web Designs</p>
           </div>
         </div>
