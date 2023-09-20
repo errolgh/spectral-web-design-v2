@@ -10,7 +10,14 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
-    'gatsby-plugin-react-svg',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /images\/.*\.svg/,
+        },
+      },
+    },
     'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-source-filesystem',
@@ -19,6 +26,13 @@ const config: GatsbyConfig = {
         path: `${__dirname}/src/images/`, // Specify the path to your images folder
       },
     },
+    // {
+    //   resolve: 'gatsby-background-image-es5',
+    //   options: {
+    //     // add your own characters to escape, replacing the default ':/'
+    //     specialChars: '/:',
+    //   },
+    // },
   ],
 }
 

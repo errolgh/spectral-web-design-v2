@@ -7,12 +7,12 @@ import Instagram from '../images/svg/icon-instagram.svg'
 
 export default function Footer() {
   return (
-    <footer class="py-16 bg-stone-900">
+    <footer class="py-16 bg-efferBlue">
       {/* <!-- Footer Container --> */}
       <div class="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start">
         {/* <!-- Logo --> */}
         <div className="w-20">
-          <Owl />
+          <Owl theme="light"/>
         </div>
         {/* <!-- Menus Container --> */}
         <div class="flex flex-col space-y-16 md:space-x-20 md:flex-row md:space-y-0">

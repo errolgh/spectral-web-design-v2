@@ -9,7 +9,7 @@ export default function OffsetImageText({ image }) {
   return (
     <section id="offset-image-text">
       {/* <!-- Feature Container --> */}
-      <div className="relative container flex flex-col max-w-6xl mx-auto my-1 p-10 pt-0 text-gray-700 md:flex-row ">
+      <div className="mt-32 relative container flex flex-col max-w-6xl mx-auto my-1 p-10 pt-0 text-gray-700 md:flex-row ">
         {/* <!-- Image --> */}
         <img
           src={Graffiti}

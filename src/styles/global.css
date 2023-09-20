@@ -54,7 +54,6 @@ body {
 .open .hamburger-top,
 .open .hamburger-middle,
 .open .hamburger-bottom {
-  
   background: #000000;
   transition: all 0.5s;
 }
@@ -160,31 +159,8 @@ body {
   @apply text-teal-600;
 }
 
-.hero-wave {
-  position: absolute;
-  top: -241px;
-  /* inset: 0; */
-  z-index: -1;
-  background-image: url('../images/svg/hero-wave.svg');
-  /* aspect-ratio: 900/600; */
-  /* width: 100%; */
-  /* margin: 0 auto; */
-  max-height: 1500px;
-  background-repeat: no-repeat;
-  /* background-position: center; */
-  background-size: cover;
-  /* object-fit: cover; */
-}
-
-.hero.wave::after {
-  /* content: ''; */
-  /* background-color: steelblue; */
-  /* position: absolute; */
-}
-
 /* Gears */
 .gearbox {
-  opacity: 0.7;
   text-align: center;
   position: relative;
   top: 0px;

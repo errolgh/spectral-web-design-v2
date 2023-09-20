@@ -2,16 +2,11 @@ import React from 'react'
 import DevAstronaut from '../images/svg/dev-astronaut.js'
 import Button from './Button.jsx'
 import { Link } from 'gatsby'
-import Wave from '../images/svg/hero-wave.svg'
 
 export default function Hero() {
-  // @TODO: ADD BLOB WITH THISSSS https://www.youtube.com/watch?v=lPJVi797Uy0&ab_channel=Fireship
   return (
     // <!-- Hero Section -->
     <section className="relative bg-efferBlue" id="hero">
-      {/* <Wave className="hero-wave"/> */}
-      {/* <div className="hero-wave"></div> */}
-      {/* <!-- Hero Container --> */}
       <div className="max-w-6xl flex flex-col-reverse mx-auto p-10 lg:flex-row lg:pt-36">
         {/* <!-- Content Container --> */}
         <div className="flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52">
