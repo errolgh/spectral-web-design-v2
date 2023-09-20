@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-heigh: 1.6;
+}
+
 body {
   @apply bg-gray-50;
 }
@@ -30,8 +46,16 @@ body {
   border-radius: 10px;
   top: 0;
   left: 0;
-  background: #002c58;
+  background: #e2e8f0;
   transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.open .hamburger-top,
+.open .hamburger-middle,
+.open .hamburger-bottom {
+  
+  background: #000000;
   transition: all 0.5s;
 }
 
@@ -136,6 +160,28 @@ body {
   @apply text-teal-600;
 }
 
+.hero-wave {
+  position: absolute;
+  top: -241px;
+  /* inset: 0; */
+  z-index: -1;
+  background-image: url('../images/svg/hero-wave.svg');
+  /* aspect-ratio: 900/600; */
+  /* width: 100%; */
+  /* margin: 0 auto; */
+  max-height: 1500px;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  /* object-fit: cover; */
+}
+
+.hero.wave::after {
+  /* content: ''; */
+  /* background-color: steelblue; */
+  /* position: absolute; */
+}
+
 /* Gears */
 .gearbox {
   opacity: 0.7;
@@ -192,7 +238,7 @@ body {
 }
 
 #cta {
-  background-color: rebeccapurple;
+  background-color: #002c58;
   /* background-image: url('../images/svg/bg-boost-desktop.svg');
   background-repeat: no-repeat;
   background-size: cover; */
@@ -211,7 +257,7 @@ body {
 
 .prices h2 {
   font-size: 2rem;
-  color: rebeccapurple;
+  color: #002c58;
 }
 
 .price-boxes {
@@ -236,38 +282,39 @@ body {
 }
 
 .price-box.price-box-premium {
-  background-color: #E3DDF1;
-  border: 0.1px solid rgba(102, 51, 153, 0.1);
+  background-color: #c7e3ff;
+  border: 0.1px solid rgba(0, 44, 88, 0.1);
 }
 
 .price-box.price-box-premium p {
-  color: rebeccapurple;
+  color: #002c58;
 }
 
 .price-box.price-box-premium ul {
-  border-top: 1px solid #E3DDF1;
+  border-top: 1px solid #002c583d;
 }
 
 .price-box.price-box-premium ul li {
-  border-bottom: 1px solid #6633993d;
+  border-bottom: 1px solid #002c583d;
 }
 
 .price-box ul {
   padding: 0;
   list-style: none;
-  border-top: 1px solid #E3DDF1;
+  border-top: 1px solid #002c583d;
 }
 
 .price-box ul li {
   padding: 10px 0;
   margin-bottom: 1rem;
-  border-bottom: 1px solid #E3DDF1;
+  border-bottom: 1px solid #002c583d;
+  padding-left: 15px;
 }
 
 .price-box h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: rebeccapurple;
+  color: #002c58;
 }
 
 .price-box p {
@@ -277,11 +324,7 @@ body {
 }
 
 .price-box button {
-  background-image: linear-gradient(
-    to right,
-    rgb(151, 119, 201),
-    rebeccapurple
-  );
+  background-image: linear-gradient(to right, rgb(1, 77, 78), #002c58);
   color: white;
   padding: 15px;
   width: 100%;

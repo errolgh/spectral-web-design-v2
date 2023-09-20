@@ -6,7 +6,7 @@ import ThreeIconFeatures from '../components/ThreeIconFeatures.jsx'
 import PitchIconDescription from '../components/PitchIconDescription.jsx'
 import HorizontalFeatureImage from '../components/HorizontalFeatureImage.jsx'
 import BannerCTA from '../components/BannerCTA.jsx'
-import Pricing from '../components/Pricing.jsx'
+import PricingMatrix from '../components/PricingMatrix.jsx'
 
 // @TODO: Change all these components with props so we can keep our code dry by importing variations to pages, not components-- data objects and files
 
@@ -155,7 +155,7 @@ const IndexPage = () => {
       <PitchIconDescription />
       <HorizontalFeatureImage />
       <BannerCTA />
-      <Pricing />
+      <PricingMatrix />
 
       {/* <h1 style={headingStyles}>
         Congratulations

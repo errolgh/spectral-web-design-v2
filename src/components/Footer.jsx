@@ -21,7 +21,7 @@ export default function Footer() {
             <div class="mb-5 font-bold text-white capitalize">Menu</div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 Link shortening
@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 Branded links
@@ -37,7 +37,7 @@ export default function Footer() {
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 Analytics
@@ -49,7 +49,7 @@ export default function Footer() {
             <div class="mb-5 font-bold text-white capitalize">Services</div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 Blog
@@ -57,7 +57,7 @@ export default function Footer() {
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 Resources
@@ -65,7 +65,7 @@ export default function Footer() {
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 Support
@@ -77,7 +77,7 @@ export default function Footer() {
             <div class="mb-5 font-bold text-white capitalize">Site Map</div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 About
@@ -85,7 +85,7 @@ export default function Footer() {
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 Our team
@@ -93,7 +93,7 @@ export default function Footer() {
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 Careers
@@ -101,7 +101,7 @@ export default function Footer() {
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="#"
+                href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
                 Contact
@@ -112,16 +112,16 @@ export default function Footer() {
         {/* <!-- Social Container --> */}
         <div className="flex flex-col items-center space-y-4 md:items-start">
           <div class="flex space-x-6">
-            <a href="#">
+            <a href="/">
               <Facebook />
             </a>
-            <a href="#">
+            <a href="/">
               <Twitter />
             </a>
-            <a href="#">
+            <a href="/">
               <Pinterest />
             </a>
-            <a href="#">
+            <a href="/">
               <Instagram />
             </a>
           </div>
