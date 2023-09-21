@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Owl from '../images/svg/owl.js'
 import { Link } from 'gatsby'
-{/* @TODO: <Nav /> now spans 100% of the window. This may not be ideal for larger screens */}
 
 export default function Nav() {
+  // @TODO: <Nav /> now spans 100% of the window. This may not be ideal for larger screens
   const [open, setOpen] = useState(false)
 
   return (
@@ -21,7 +21,7 @@ export default function Nav() {
               Spectral
             </span>
             <span className="text-xs tracking-widest uppercase hidden md:inline">
-              Web Designs
+              Digital Labs
             </span>
           </div>
         </div>

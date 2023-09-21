@@ -158,7 +158,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="text-center md:text-left text-neutral-200">
-            <p>© {new Date().getFullYear()} Spectral Web Designs</p>
+            <p>© {new Date().getFullYear()} Spectral Digital Labs</p>
           </div>
         </div>
       </div>

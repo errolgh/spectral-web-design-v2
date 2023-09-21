@@ -34,7 +34,11 @@ h6 {
 }
 
 main p {
-  @apply text-gray-500 leading-7;
+  @apply text-gray-600 leading-7;
+}
+
+aside {
+  @apply text-sm;
 }
 
 @media screen and (max-width: 768px) {
@@ -376,7 +380,7 @@ main p {
 }
 
 .parent {
-  outline: 5px solid hotpink;
+  
 }
 
 .main-with-sidebar {
@@ -388,7 +392,7 @@ main p {
 
 .main-with-sidebar > :first-child {
   flex-basis: 500px;
-  flex-grow: 9999; 
+  flex-grow: 9999;
   /* this is hacky, but it limits the rate of growth of the aside element */
 }
 

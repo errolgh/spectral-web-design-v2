@@ -1,9 +1,9 @@
 import * as React from 'react'
 import Layout from '../components/Layout'
 
-// For Blog Posts:
+// Iterate over list of Blogs
 
-const BlogPage = () => {
+const BlogList = () => {
   return (
     <Layout>
       <main className="pt-36 mx-28">
@@ -62,4 +62,4 @@ const BlogPage = () => {
 }
 
 // Step 3: Export your component
-export default BlogPage
+export default BlogList

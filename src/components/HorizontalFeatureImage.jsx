@@ -43,7 +43,7 @@ const Feature = ({ title, description, image, reverse }) => (
   >
     <div>
       <h4 className="font-bold text-2xl mb-3 text-gray-700">{title}</h4>
-      <p className="mx-auto max-w-md lg:max-w-md text-gray-500 leading-7">
+      <p className="mx-auto max-w-md lg:max-w-md">
         {description}
       </p>
     </div>
