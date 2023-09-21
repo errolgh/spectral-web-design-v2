@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import Owl from '../images/svg/owl.js'
 import { Link } from 'gatsby'
+{/* @TODO: <Nav /> now spans 100% of the window. This may not be ideal for larger screens */}
 
 export default function Nav() {
   const [open, setOpen] = useState(false)
 
   return (
     <header className="relative flex justify-center">
-      <nav className="bg-efferBlue text-efferBlue container mx-auto max-w-6xl absolute flex items-center justify-between font-bold md:px-5 md:text-slate-100">
+      <nav className="bg-efferBlue text-efferBlue w-full absolute flex items-center justify-between font-bold md:px-5 md:text-slate-100 lg:justify-center lg:gap-x-80 xl:gap-x-96">
         <div className="flex">
           {/* <!-- Logo --> */}
           <Link to="/">

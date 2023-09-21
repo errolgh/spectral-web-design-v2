@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-
 /* @TODO: CSS variables, more abstraction and another page, finish footer links */
 
 *,
@@ -37,8 +36,6 @@ h6 {
 main p {
   @apply text-gray-500 leading-7;
 }
-
-
 
 @media screen and (max-width: 768px) {
   body {
@@ -376,4 +373,26 @@ main p {
   .price-box {
     width: 40%;
   }
+}
+
+.parent {
+  outline: 5px solid hotpink;
+}
+
+.main-with-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 1em;
+}
+
+.main-with-sidebar > :first-child {
+  flex-basis: 500px;
+  flex-grow: 9999; 
+  /* this is hacky, but it limits the rate of growth of the aside element */
+}
+
+.main-with-sidebar > :last-child {
+  flex-basis: 300px;
+  flex-grow: 1;
 }

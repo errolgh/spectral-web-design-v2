@@ -15,7 +15,7 @@ export default function Footer() {
           <Owl theme="light"/>
         </div>
         {/* <!-- Menus Container --> */}
-        <div class="flex flex-col space-y-16 md:space-x-20 md:flex-row md:space-y-0">
+        <div class="flex flex-col space-y-16 md:space-x-48 md:flex-row md:space-y-0">
           {/* <!-- Menu 1 --> */}
           <div class="flex flex-col items-center w-full md:items-start">
             <div class="mb-5 font-bold text-white capitalize">Menu</div>
@@ -24,23 +24,47 @@ export default function Footer() {
                 href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
-                Link shortening
+                Home
               </a>
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="/"
+                href="/services"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
-                Branded links
+                Services
               </a>
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
-                href="/"
+                href="/portfolio"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
-                Analytics
+                Portfolio
+              </a>
+            </div>
+            <div class="flex flex-col items-center space-y-3 md:items-start">
+              <a
+                href="/blog"
+                class="capitalize text-neutral-200 hover:text-cyan mb-1"
+              >
+                Blog
+              </a>
+            </div>
+            <div class="flex flex-col items-center space-y-3 md:items-start">
+              <a
+                href="/about"
+                class="capitalize text-neutral-200 hover:text-cyan mb-1"
+              >
+                About
+              </a>
+            </div>
+            <div class="flex flex-col items-center space-y-3 md:items-start">
+              <a
+                href="/contact"
+                class="capitalize text-neutral-200 hover:text-cyan mb-1"
+              >
+                Contact
               </a>
             </div>
           </div>
@@ -52,7 +76,7 @@ export default function Footer() {
                 href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
-                Blog
+                Web Development
               </a>
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
@@ -60,7 +84,15 @@ export default function Footer() {
                 href="/"
                 class="capitalize text-neutral-200 hover:text-cyan mb-1"
               >
-                Resources
+                Web Design
+              </a>
+            </div>
+            <div class="flex flex-col items-center space-y-3 md:items-start">
+              <a
+                href="/"
+                class="capitalize text-neutral-200 hover:text-cyan mb-1"
+              >
+                Digital Marketing
               </a>
             </div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
@@ -73,7 +105,7 @@ export default function Footer() {
             </div>
           </div>
           {/* <!-- Menu 3 --> */}
-          <div class="flex flex-col items-center w-full md:items-start">
+          {/* <div class="flex flex-col items-center w-full md:items-start">
             <div class="mb-5 font-bold text-white capitalize">Site Map</div>
             <div class="flex flex-col items-center space-y-3 md:items-start">
               <a
@@ -107,7 +139,7 @@ export default function Footer() {
                 Contact
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* <!-- Social Container --> */}
         <div className="flex flex-col items-center space-y-4 md:items-start">
