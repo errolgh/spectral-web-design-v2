@@ -1,6 +1,26 @@
-import type { GatsbyConfig } from 'gatsby'
+// import type { GatsbyConfig } from 'gatsby'
 
-const config: GatsbyConfig = {
+// You can create additional environments beyond development and production through customizing dotenv’s path configuration. E.g. to add a staging environment you could run the Gatsby build command like:
+
+// STAGING=true gatsby build
+
+// gatsby-config.js:
+
+// if (process.env.STAGING) {
+//   require("dotenv").config({
+//     path: `.env.${process.env.NODE_ENV}.staging`,
+//   })
+// } else {
+//   require("dotenv").config({
+//     path: `.env.${process.env.NODE_ENV}`,
+//   })
+// }
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+const config = {
   siteMetadata: {
     title: `Spectral Digital Labs`,
     // title: `Spectral Web Design v2`,
@@ -13,6 +33,19 @@ const config: GatsbyConfig = {
   plugins: [
     'gatsby-plugin-netlify',
     'gatsby-plugin-postcss',
+    'gatsby-plugin-image',
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: process.env.SPACE_ID,
+        accessToken: process.env.DELIVERY_ACCESS_TOKEN,
+        // host: process.env.CONTENTFUL_HOST,
+        // environment: process.env.CONTENTFUL_ENVIRONMENT || 'main',
+        // he mentions possibly creating a preview environment, he also uses 'master' in his config file and .env file 17'15":
+        // https://www.youtube.com/watch?v=zygumAuw1bg&ab_channel=jondjones
+        // localhost:8000/__refresh in postman
+      },
+    },
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {

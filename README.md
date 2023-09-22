@@ -53,3 +53,4 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 <!-- Contentful Tutorial: -->
 <!-- https://www.youtube.com/watch?v=zygumAuw1bg&ab_channel=jondjones -->
+<!-- https://www.youtube.com/watch?v=24pIMy_-bqE&ab_channel=jondjones -->

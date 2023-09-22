@@ -40,7 +40,7 @@ const BlogPage = () => {
               </p>
             </div>
             <aside className="children">
-              <h2 className="text-2xl mb-4">Aside</h2>
+              <h2 className="text-2xl mb-4">Other Posts</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Excepturi sunt voluptatum deleniti, assumenda autem quos.
