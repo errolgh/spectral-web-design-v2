@@ -1,16 +1,60 @@
-import * as React from 'react'
+import React, { useEffect, useState } from 'react'
 import Layout from '../components/Layout'
+import { Link, useParams } from 'gatsby'
 
-// Iterate over list of Blogs
+import { createClient } from 'contentful'
+
+// this turned out to be the blog detail page
+
+/*
+- Link back to /blog
+- possibly using state management/usecontext to rehydrate components if gatsby's built in routing allows between all blogs and blog detail pages
+
+
+*/
 
 const BlogList = () => {
+  // const [blogPosts, setBlogPosts] = useState([])
+  const [singleBlogPost, setSingleBlogPost] = useState([])
+
+  const { id } = useParams()
+
+  const client = createClient({
+    space: process.env.SPACE_ID,
+    accessToken: process.env.DELIVERY_ACCESS_TOKEN,
+  })
+
+  // useEffect(() => {
+  //   const getEntryById = async () => {
+  //     try {
+  //       // await client.getEntries().then((entries) => {
+  //       //   console.log(entries)
+  //       await client.getEntry(id).then((entry) => {
+  //         setSingleBlogPost(entry)
+  //       })
+  //     } catch (error) {
+  //       console.log(error)
+  //     } //////////////////////////////////////////////// KEEP HTML FORMATTING ON THIS PAGE FOR SLUG STYLING
+  //   }
+  //   getEntryById()
+  // }, [])
   return (
     <Layout>
       <main className="pt-36 mx-28">
-
-          {/* https://www.youtube.com/watch?v=p3_xN2Zp1TY&ab_channel=KevinPowell */}
+        <Link to="/blog">
+          <p>all blogs</p>
+        </Link>
+        <img
+          src={singleBlogPost?.fields?.blogImage?.fields?.file?.url}
+          alt={singleBlogPost?.fields?.blogImage?.fields?.title}
+        />
+        <h1>{singleBlogPost?.fields?.blogImage?.fields?.title} </h1>
+        <span>{singleBlogPost?.fields?.author} </span>
+        <small>{singleBlogPost?.fields?.createdDate} </small>
+        <section>{singleBlogPost?.fields?.content} </section>
+        {/* https://www.youtube.com/watch?v=p3_xN2Zp1TY&ab_channel=KevinPowell */}
         <div className="mb-16">
-          <h1 className="text-4xl font-bold mb-6">Blog</h1>
+          <h1 className="text-4xl font-bold mb-6">Blog List</h1>
           <div className="mb-10">
             <p>
               Hi there! I'm the proud creator of this blog, which I built with
@@ -61,5 +105,4 @@ const BlogList = () => {
   )
 }
 
-// Step 3: Export your component
 export default BlogList

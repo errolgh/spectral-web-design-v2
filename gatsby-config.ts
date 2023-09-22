@@ -34,6 +34,8 @@ const config = {
     'gatsby-plugin-netlify',
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
+    // `gatsby-plugin-sharp`,
+    // `gatsby-transformer-sharp`, // Needed for dynamic images
     {
       resolve: 'gatsby-source-contentful',
       options: {
@@ -47,18 +49,18 @@ const config = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images/`, // Specify the path to your images folder
+      },
+    },
+    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
           include: /images\/.*\.svg/,
         },
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'images',
-        path: `${__dirname}/src/images/`, // Specify the path to your images folder
       },
     },
     // {
