@@ -3,7 +3,7 @@ import Owl from '../images/svg/owl.js'
 import { Link } from 'gatsby'
 
 export default function Nav() {
-  // @TODO: <Nav /> now spans 100% of the window. This may not be ideal for larger screens
+// @TODO: <Nav /> now spans 100% of the window. This may not be ideal for larger screens
   const [open, setOpen] = useState(false)
 
   return (

@@ -11,6 +11,8 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
+    'gatsby-plugin-netlify',
+    'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
@@ -19,7 +21,6 @@ const config: GatsbyConfig = {
         },
       },
     },
-    'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

@@ -6,7 +6,7 @@ export default function PitchIconDescription() {
   return (
     <section id="pitch-icon-description">
         <div className="container mx-auto flex flex-col items-center mt-32 text-center lg:mt-56">
-        <h2 className="text-4xl font-bold md:text-5xl">How It Works</h2>
+        <h2 className="text-4xl font-bold md:text-5xl">How We Make It Happen</h2>
 
         <div className="gearbox">
           <svg
