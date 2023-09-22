@@ -1,7 +1,5 @@
-<div align="center">
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/8e5c6db6-b8e5-4e2f-87d1-23aae8c7f15b/deploy-status)](https://app.netlify.com/sites/spectraldigitallabs/deploys)
-  [Spectral Digital Labs Home Page](https://spectraldigitallabs.netlify.app/)
-</div>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8e5c6db6-b8e5-4e2f-87d1-23aae8c7f15b/deploy-status)](https://app.netlify.com/sites/spectraldigitallabs/deploys)
+
 
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
