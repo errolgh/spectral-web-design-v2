@@ -1,4 +1,7 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8e5c6db6-b8e5-4e2f-87d1-23aae8c7f15b/deploy-status)](https://app.netlify.com/sites/spectraldigitallabs/deploys)
+<div align="center">
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/8e5c6db6-b8e5-4e2f-87d1-23aae8c7f15b/deploy-status)](https://app.netlify.com/sites/spectraldigitallabs/deploys)
+  [Spectral Digital Labs Home Page](https://spectraldigitallabs.netlify.app/)
+</div>
 
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
@@ -6,7 +9,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal TypeScript Starter
+  Spectral Digital Labs
 </h1>
 
 ## 🚀 Quick start
@@ -44,11 +47,11 @@
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-## 🚀 Quick start (Netlify)
+<!-- ## 🚀 Quick start (Netlify)
 
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts) -->
 
 <!-- Contentful Tutorial: -->
 <!-- https://www.youtube.com/watch?v=zygumAuw1bg&ab_channel=jondjones -->
