@@ -1,4 +1,4 @@
-export const testAPI = {
+export const testAllBlogsJSON = {
     "sys": {
       "type": "Array"
     },

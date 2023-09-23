@@ -3,23 +3,21 @@ import Owl from '../images/svg/owl.js'
 import { Link } from 'gatsby'
 
 export default function Nav() {
-// @TODO: <Nav /> now spans 100% of the window. This may not be ideal for larger screens
+  // @TODO: <Nav /> now spans 100% of the window. This may not be ideal for larger screens
   const [open, setOpen] = useState(false)
 
   return (
     <header className="relative flex justify-center">
       <nav className="bg-efferBlue text-efferBlue w-full absolute flex items-center justify-between font-bold md:px-5 md:text-slate-100 lg:justify-center lg:gap-x-80 xl:gap-x-96">
         <div className="flex">
-          {/* <!-- Logo --> */}
+          {/*  Logo  */}
           <Link to="/">
             <div className="flex w-20 p-4 pt-6 relative z-10">
-              <Owl theme="light"/>
+              <Owl theme="light" />
             </div>
           </Link>
           <div className="flex flex-col text-center justify-center z-10 text-slate-200">
-            <span className="text-xl tracking-wider pr-1">
-              Spectral
-            </span>
+            <span className="text-xl tracking-wider pr-1">Spectral</span>
             <span className="text-xs tracking-widest uppercase">
               Digital Labs
             </span>
@@ -71,7 +69,7 @@ export default function Nav() {
           </li>
         </ul>
 
-        {/* <!-- Hamburger Button --> */}
+        {/*  Hamburger Button  */}
         <div className="md:hidden p-2 pr-4">
           <button
             onClick={() => setOpen(!open)}
@@ -81,7 +79,7 @@ export default function Nav() {
               open ? 'open' : ''
             } z-40 block hamburger md:hidden focus:outline-none focus:ring-blue-50`}
           >
-            {/* <!-- open class above gets toggled with js--> */}
+            {/*  open class above gets toggled with js */}
             <span className="hamburger-top"></span>
             <span className="hamburger-middle"></span>
             <span className="hamburger-bottom"></span>

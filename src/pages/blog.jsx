@@ -38,16 +38,15 @@ const BlogList = () => {
 
   return (
     <Layout>
-      <main className="pt-36 mx-6 md:mx-28 flex flex-col items-center">
+      <main className="pt-36 mx-6 md:mx-28 flex flex-col items-center bg-gray-50">
+        <h1 className="text-2xl md:text-4xl font-bold mb-12">
+          Spectral Digital Labs Latest Blog Posts
+        </h1>
         {blogPosts?.items?.map((post) => (
-          <section className="mb-16 max-w-2xl" key={post.sys.id}>
-            <h1 className="text-xl font-bold mb-12">
-              Spectral Digital Labs Latest Blog Posts
-            </h1>
-            <h2 className="text-2xl md:text-4xl font-bold mb-6">
-              {post.fields.title}
-            </h2>
-            {console.log('blogPosts', blogPosts.items)}
+          <section className="flex flex-col mb-16 max-w-2xl bg-white p-2 md:px-6" key={post.sys.id}>
+            {/* move the key from this section? semantically-- does every blog need its own section? */}
+            {/* {console.log('blogPosts', blogPosts.items)} */}
+            <h2 className="text-xl md:text-3xl  mb-6">{post.fields.title}</h2>
             <img
               src={post.fields.heroImage.fields.file.url}
               alt={post.fields.heroImage.fields.description}

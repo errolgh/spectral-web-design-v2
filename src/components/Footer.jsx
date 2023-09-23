@@ -8,25 +8,23 @@ import Instagram from '../images/svg/icon-instagram.svg'
 export default function Footer() {
   return (
     <footer className="py-16 bg-efferBlue">
-      {/* <!-- Footer Container --> */}
+      {/*  Footer Container  */}
       <div className="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start">
-        {/* <!-- Logo --> */}
-        <div className='flex flex-col items-center space-y-2 md:flex-row md:space-x-4 md:pr-8'>
+        {/*  Logo  */}
+        <div className="flex flex-col items-center space-y-2 md:flex-row md:space-x-4 md:pr-8">
           <div className="w-20">
             <Owl theme="light" />
           </div>
           <div className="flex flex-col text-center justify-center z-10 text-slate-200 font-bold">
-            <span className="text-xl tracking-wider">
-              Spectral
-            </span>
+            <span className="text-xl tracking-wider">Spectral</span>
             <span className="text-xs tracking-widest uppercase">
               Digital Labs
             </span>
           </div>
         </div>
-        {/* <!-- Menus Container --> */}
+        {/*  Menus Container  */}
         <div className="flex flex-col space-y-12 md:space-x-48 md:flex-row md:space-y-0">
-          {/* <!-- Menu 1 --> */}
+          {/*  Menu 1  */}
           <div className="flex flex-col items-center w-full md:items-start">
             <div className="mb-5 font-bold text-white capitalize">Menu</div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
@@ -78,7 +76,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          {/* <!-- Menu 2 --> */}
+          {/*  Menu 2  */}
           <div className="flex flex-col items-center w-full md:items-start">
             <div className="mb-5 font-bold text-white capitalize">Services</div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
@@ -114,7 +112,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          {/* <!-- Menu 3 --> */}
+          {/*  Menu 3  */}
           {/* <div className="flex flex-col items-center w-full md:items-start">
             <div className="mb-5 font-bold text-white capitalize">Site Map</div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
@@ -151,7 +149,7 @@ export default function Footer() {
             </div>
           </div> */}
         </div>
-        {/* <!-- Social Container --> */}
+        {/*  Social Container  */}
         <div className="flex flex-col items-center space-y-4 md:items-start pl-4">
           <div className="flex space-x-6">
             <a href="/">

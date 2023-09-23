@@ -8,16 +8,16 @@ import { Link } from 'gatsby'
 export default function OffsetImageText({ image }) {
   return (
     <section id="offset-image-text">
-      {/* <!-- Feature Container --> */}
+      {/*  Feature Container  */}
       <div className="mt-32 relative container flex flex-col max-w-6xl mx-auto my-1 p-10 pt-0 md:flex-row ">
-        {/* <!-- Image --> */}
+        {/*  Image  */}
         <img
           src={Graffiti}
           alt="Graffiti Alley"
           className="md:w-9/12 lg:w-3/5"
-          loading='lazy'
+          loading="lazy"
         />
-        {/* <!-- Text Container --> */}
+        {/*  Text Container  */}
         <div className="top-48 pr-0 bg-gray-50 md:absolute md:right-16 lg:right-36 md:px-12 md:py-12 md:pl-12 md:pb-0">
           <h2 className="max-w-lg mt-10 mb-6 font-bold text-4xl mx-auto text-center md:text-5xl md:mx-0 md:mt-0 md:text-left">
             What We Do
