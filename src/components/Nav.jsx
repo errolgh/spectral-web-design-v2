@@ -17,10 +17,10 @@ export default function Nav() {
             </div>
           </Link>
           <div className="flex flex-col text-center justify-center z-10">
-            <span className="text-xl tracking-wider pr-1 hidden md:inline">
+            <span className="text-xl tracking-wider pr-1">
               Spectral
             </span>
-            <span className="text-xs tracking-widest uppercase hidden md:inline">
+            <span className="text-xs tracking-widest uppercase">
               Digital Labs
             </span>
           </div>

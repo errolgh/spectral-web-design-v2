@@ -4,8 +4,6 @@ import { Link, useParams } from 'gatsby'
 
 import { createClient } from 'contentful'
 
-// this turned out to be the blog detail page
-
 /*
 - Link back to /blog
 - possibly using state management/usecontext to rehydrate components if gatsby's built in routing allows between all blogs and blog detail pages
@@ -13,7 +11,7 @@ import { createClient } from 'contentful'
 
 */
 
-const BlogList = () => {
+const BlogDetail = () => {
   // const [blogPosts, setBlogPosts] = useState([])
   const [singleBlogPost, setSingleBlogPost] = useState([])
 
@@ -105,4 +103,4 @@ const BlogList = () => {
   )
 }
 
-export default BlogList
+export default BlogDetail
