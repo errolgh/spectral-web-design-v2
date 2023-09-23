@@ -11,11 +11,21 @@ export default function Footer() {
       {/* <!-- Footer Container --> */}
       <div className="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start">
         {/* <!-- Logo --> */}
-        <div className="w-20">
-          <Owl theme="light" />
+        <div className='flex flex-col items-center space-y-2 md:flex-row md:space-x-4 md:pr-8'>
+          <div className="w-20">
+            <Owl theme="light" />
+          </div>
+          <div className="flex flex-col text-center justify-center z-10 text-slate-200 font-bold">
+            <span className="text-xl tracking-wider">
+              Spectral
+            </span>
+            <span className="text-xs tracking-widest uppercase">
+              Digital Labs
+            </span>
+          </div>
         </div>
         {/* <!-- Menus Container --> */}
-        <div className="flex flex-col space-y-16 md:space-x-48 md:flex-row md:space-y-0">
+        <div className="flex flex-col space-y-12 md:space-x-48 md:flex-row md:space-y-0">
           {/* <!-- Menu 1 --> */}
           <div className="flex flex-col items-center w-full md:items-start">
             <div className="mb-5 font-bold text-white capitalize">Menu</div>
@@ -142,7 +152,7 @@ export default function Footer() {
           </div> */}
         </div>
         {/* <!-- Social Container --> */}
-        <div className="flex flex-col items-center space-y-4 md:items-start">
+        <div className="flex flex-col items-center space-y-4 md:items-start pl-4">
           <div className="flex space-x-6">
             <a href="/">
               <Facebook />

@@ -16,7 +16,7 @@ export default function Nav() {
               <Owl theme="light"/>
             </div>
           </Link>
-          <div className="flex flex-col text-center justify-center z-10">
+          <div className="flex flex-col text-center justify-center z-10 text-slate-200">
             <span className="text-xl tracking-wider pr-1">
               Spectral
             </span>
