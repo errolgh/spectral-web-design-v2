@@ -6,19 +6,21 @@
 
 // gatsby-config.js:
 
-// if (process.env.STAGING) {
-//   require("dotenv").config({
-//     path: `.env.${process.env.NODE_ENV}.staging`,
-//   })
-// } else {
-//   require("dotenv").config({
-//     path: `.env.${process.env.NODE_ENV}`,
-//   })
-// }
-
+// probably from jondjones:
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
+
+if (process.env.STAGING) {
+  require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}.staging`,
+  })
+} else {
+  require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+  })
+}
+
 
 const config = {
   siteMetadata: {
@@ -41,7 +43,7 @@ const config = {
       options: {
         spaceId: process.env.SPACE_ID,
         accessToken: process.env.DELIVERY_ACCESS_TOKEN,
-        // for preview
+        // for contentful preview
         // host: process.env.CONTENTFUL_HOST,
         // environment: process.env.CONTENTFUL_ENVIRONMENT || 'main',
         // he mentions possibly creating a preview environment, he also uses 'master' in his config file and .env file 17'15":

@@ -21,7 +21,7 @@ const BlogDetails = ({ data, pageContext }) => {
     <Layout>
       <main className="pt-36 mx-6 md:mx-28">
         <Link to="/blog">
-          <p>{'< all blogs'}</p>
+          <p className='mb-8'>{'< Blog List'}</p>
         </Link>
         <div className="mb-16">
           <h1 className="text-xl md:text-3xl mb-6">{blog.title}</h1>
