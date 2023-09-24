@@ -11,6 +11,7 @@ import PricingMatrix from '../components/PricingMatrix.jsx'
 // @TODO: Change all these components with props so we can keep our code dry by importing variations to pages, not components-- data objects and files
 // @TODO: Should all /images go to /static? and should I use the <Img /> gatsby component for images?
 // @TODO: Configure npm reading-time - https://github.com/search?q=repo%3Acontentful%2Fstarter-gatsby-blog%20publishDate&type=code
+// @TODO: probably increase text sizes/get typography right
 
 const IndexPage = () => {
   return (
