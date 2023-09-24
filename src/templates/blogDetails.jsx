@@ -46,10 +46,10 @@ const richTextOptions = {
   },
   renderNode: {
     [BLOCKS.PARAGRAPH]: (node, children) => (
-      <p className="text-slate-700">{children}</p>
+      <p className="text-slate-700 mb-20">{children}</p>
     ),
     [BLOCKS.HEADING_2]: (node, children) => {
-      return <h2 className="text-2xl font-bold">{children}</h2>
+      return <h2 className="text-2xl font-bold mb-4">{children}</h2>
     },
   },
 }
@@ -59,21 +59,21 @@ const BlogDetails = ({ data }) => {
   // console.log('pulling content', JSON.parse(blog.content.raw))
   return (
     <Layout>
-      <section>
-        <main className="pt-36 mx-6 md:mx-28 mb-20">
+      <section className='flex flex-col items-center'>
+        <main className="pt-36 mx-6 md:mx-28 mb-20 max-w-2xl">
           <Link to="/blog/">
             <p className="mb-8">{'< Blog List'}</p>
           </Link>
           <div className="mb-16">
             <h1 className="text-xl md:text-5xl mb-6 max-w-2xl">{blog.title}</h1>
-            <div className="w-1/2 ml-24">
+            <div className="w-1/2 ml-24 mb-6">
               <img
                 src={blog.heroImage.file.url}
                 alt={blog.heroImage.description}
               />
-              <div className="flex mt-8 items-center space-x-4">
+              <div className="flex mt-5 items-center space-x-3">
                 <div className="w-8">
-                  <img src={blog.authorAvatar[0].file.url} alt={blog.author} />
+                  <img src={blog.authorAvatar[0].file.url} alt="" />
                 </div>
                 <span className="text-gray-500">by {blog.author}</span>
               </div>
