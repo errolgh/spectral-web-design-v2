@@ -19,6 +19,8 @@ import { createClient } from 'contentful'
 const BlogList = () => {
   const [blogPosts, setBlogPosts] = useState([])
 
+  // breaks in prod maybe because you can't pull env vars from outside of gatsby-*.js files
+  // either fetch this server side or pull this data from Graphql
   const client = createClient({
     space: process.env.SPACE_ID,
     accessToken: process.env.DELIVERY_ACCESS_TOKEN,
