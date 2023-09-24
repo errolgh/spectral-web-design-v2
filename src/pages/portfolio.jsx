@@ -4,10 +4,10 @@ import Layout from '../components/Layout'
 const PortfolioPage = () => {
   return (
     <Layout>
-      <main className='pt-36'>
+      <section className='pt-36'>
         <h1>Portfolio</h1>
         <p>Yeah, I built these.</p>
-      </main>
+      </section>
     </Layout>
   )
 }
