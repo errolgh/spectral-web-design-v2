@@ -4,13 +4,13 @@ import Layout from '../components/Layout.jsx'
 const AboutPage = () => {
   return (
     <Layout>
-      <main className='pt-36'>
+      <section className='pt-36'>
         <h1>About Me</h1>
         <p>
           Hi there! I'm the proud creator of this site, which I built with
           Gatsby.
         </p>
-      </main>
+      </section>
     </Layout>
   )
 }

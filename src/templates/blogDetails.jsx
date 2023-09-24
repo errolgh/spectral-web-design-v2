@@ -2,50 +2,91 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import { Link } from 'gatsby'
-// import GatsbyImage from 'gatsby-image'
+import { renderRichText } from 'gatsby-source-contentful/rich-text'
+import { BLOCKS, MARKS } from '@contentful/rich-text-types'
 
-// @TODO: configure childImageSharp/fluid/GatsbyImageFluidSharp
+// import GatsbyImage from 'gatsby-image'
+// @TODO: configure childImageSharp/fluid/GatsbyImageFluidSharp whatever is hip nowadays
 
 export const query = graphql`
-# https://www.gatsbyjs.com/docs/why-gatsby-uses-graphql/#generate-pages-with-graphql 6'45" minutes in
+  # https://www.gatsbyjs.com/docs/why-gatsby-uses-graphql/#generate-pages-with-graphql 6'45" minutes in
   query ($slug: String!) {
     contentfulBlogPost(slug: { eq: $slug }) {
       title
+      author
+      heroImage {
+        file {
+          url
+        }
+      }
+      heroImage {
+        description
+      }
+      description {
+        description
+      }
+      authorAvatar {
+        file {
+          url
+        }
+      }
+      createdAt(formatString: "MMMM Do, YYYY")
+      content {
+        raw
+      }
     }
   }
 `
 
-const BlogDetails = ({ data, pageContext }) => {
+// https://www.youtube.com/watch?v=RnWmtpT6Ttg&ab_channel=AlexMerced-FullStackDeveloper RICH TEXT
+// https://github.com/gatsbyjs/gatsby/discussions/28098
+const richTextOptions = {
+  renderMark: {
+    [MARKS.BOLD]: (text) => <b className="font-bold">{text}</b>,
+  },
+  renderNode: {
+    [BLOCKS.PARAGRAPH]: (node, children) => (
+      <p className="text-slate-700">{children}</p>
+    ),
+    [BLOCKS.HEADING_2]: (node, children) => {
+      return <h2 className="text-2xl font-bold">{children}</h2>
+    },
+  },
+}
+
+const BlogDetails = ({ data }) => {
   const blog = data.contentfulBlogPost
+  // console.log('pulling content', JSON.parse(blog.content.raw))
   return (
     <Layout>
-      <main className="pt-36 mx-6 md:mx-28">
-        <Link to="/blog">
-          <p className='mb-8'>{'< Blog List'}</p>
-        </Link>
-        <div className="mb-16">
-          <h1 className="text-xl md:text-3xl mb-6">{blog.title}</h1>
-          {/* <h1 className="text-xl md:text-3xl mb-6">{pageContext.title}</h1> */}
-          <div>
-            <img
-              src={pageContext.heroImage}
-              alt={pageContext.heroImageDescription}
-            />
-            <div className="flex mt-5 items-center space-x-2">
-              <div className="w-8">
-                <img src={pageContext.authorAvatar} alt="" />
+      <section>
+        <main className="pt-36 mx-6 md:mx-28 mb-20">
+          <Link to="/blog/">
+            <p className="mb-8">{'< Blog List'}</p>
+          </Link>
+          <div className="mb-16">
+            <h1 className="text-xl md:text-5xl mb-6 max-w-2xl">{blog.title}</h1>
+            <div className="w-1/2 ml-24">
+              <img
+                src={blog.heroImage.file.url}
+                alt={blog.heroImage.description}
+              />
+              <div className="flex mt-8 items-center space-x-4">
+                <div className="w-8">
+                  <img src={blog.authorAvatar[0].file.url} alt={blog.author} />
+                </div>
+                <span className="text-gray-500">by {blog.author}</span>
               </div>
-              <span className="text-gray-500">by {pageContext.author}</span>
+              <cite className="text-gray-500 underline text-sm">
+                {blog.createdAt}
+              </cite>
             </div>
-            <cite className="text-gray-500 underline text-sm">
-              {pageContext.createdAt}
-            </cite>
+            <div className="mb-10">
+              <div>{renderRichText(blog.content, richTextOptions)}</div>
+            </div>
           </div>
-          <div className="mb-10">
-            <div dangerouslySetInnerHTML={{ __html: pageContext.content }} />
-          </div>
-        </div>
-      </main>
+        </main>
+      </section>
     </Layout>
   )
 }

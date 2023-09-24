@@ -5,7 +5,7 @@ import Layout from '../components/Layout.jsx'
 const NotFoundPage = () => {
   return (
     <Layout>
-      <main className='pt-32 m-6'>
+      <section className='pt-32 m-6'>
         <h1 className='text-2xl font-bold mb-6'>Page not found</h1>
         <p>
           Sorry 😔, we couldn’t find what you were looking for.
@@ -20,7 +20,7 @@ const NotFoundPage = () => {
           <br />
           <Link to="/">Go home</Link>.
         </p>
-      </main>
+      </section>
     </Layout>
   )
 }
