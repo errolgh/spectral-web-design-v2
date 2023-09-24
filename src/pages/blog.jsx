@@ -58,15 +58,15 @@ const BlogList = () => {
   console.log("bro, we're doin' a GraphQL", blogPosts)
   return (
     <Layout>
-      <section className="pt-36 mx-6 md:mx-28 flex flex-col items-center bg-gray-50">
-        <h1 className="text-2xl md:text-4xl font-bold mb-12">
-          Spectral Digital Labs Latest Blog Posts
+      <section className="pt-36 p-6 mx-auto flex flex-col bg-gray-50 max-w-lg md:max-w-xl lg:max-w-4xl">
+        <h1 className="text-4xl md:text-5xl font-bold mb-14">
+          Spectral Digital Labs Blog
         </h1>
         <div className="flex flex-wrap gap-16 justify-center">
           {blogPosts?.map((post) => (
             <div key={post.id}>
               <Link to={`/blog/${post.slug}`}>
-                <div className="flex flex-col py-6 mb-8 max-w-sm bg-white p-2 md:px-6 shadow-lg rounded-lg justify-between">
+                <div className="flex flex-col py-6 mb-8 max-w-sm bg-white p-2 shadow-lg rounded-lg justify-between">
                   {/* move the key from this section? semantically-- does every blog need its own section? */}
                   {/* {console.log('blogPosts', blogPosts.items)} */}
                   <h2 className="text-xl md:text-2xl mb-6">{post.title}</h2>

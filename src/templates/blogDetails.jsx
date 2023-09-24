@@ -59,13 +59,13 @@ const BlogDetails = ({ data }) => {
   // console.log('pulling content', JSON.parse(blog.content.raw))
   return (
     <Layout>
-      <section className='flex flex-col items-center'>
-        <main className="pt-36 mx-6 md:mx-28 mb-20 max-w-2xl">
+      <section className="flex flex-col pt-36 items-center p-6">
+        <article className="md:mx-28 mb-20 max-w-2xl">
           <Link to="/blog/">
             <p className="mb-8">{'< Blog List'}</p>
           </Link>
           <div className="mb-16">
-            <h1 className="text-xl md:text-5xl mb-6 max-w-2xl">{blog.title}</h1>
+            <h1 className="text-3xl md:text-5xl font-bold mb-6 max-w-2xl">{blog.title}</h1>
             <div className="w-1/2 ml-24 mb-6">
               <img
                 src={blog.heroImage.file.url}
@@ -85,7 +85,7 @@ const BlogDetails = ({ data }) => {
               <div>{renderRichText(blog.content, richTextOptions)}</div>
             </div>
           </div>
-        </main>
+        </article>
       </section>
     </Layout>
   )
