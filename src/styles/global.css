@@ -24,6 +24,12 @@ body {
   @apply font-poppins;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
 h1,
 h2,
 h3,
@@ -377,26 +383,4 @@ aside {
   .price-box {
     width: 40%;
   }
-}
-
-.parent {
-  
-}
-
-.main-with-sidebar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  gap: 1em;
-}
-
-.main-with-sidebar > :first-child {
-  flex-basis: 500px;
-  flex-grow: 9999;
-  /* this is hacky, but it limits the rate of growth of the aside element */
-}
-
-.main-with-sidebar > :last-child {
-  flex-basis: 300px;
-  flex-grow: 1;
 }
