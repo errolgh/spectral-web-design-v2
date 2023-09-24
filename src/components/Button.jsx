@@ -5,7 +5,7 @@ import React from 'react'
 
 const Button = ({ children, order, onClick }) => {
   let buttonClasses =
-    'mt-4 py-4 px-8 text-xl font-bold rounded-3xl lg:py-4 focus:outline-none'
+    'mt-4 py-4 px-8 text-xl font-bold rounded-3xl lg:py-4 focus:outline-none shadow-xl'
 
   if (order === 'primary') {
     buttonClasses += ' bg-blue-800 text-gray-100 hover:bg-[#002C58]'
