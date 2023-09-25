@@ -12,10 +12,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -24,10 +20,8 @@ body {
   @apply font-poppins;
 }
 
-html,
-body {
+#overflow-fix {
   overflow-x: hidden;
-  position: relative;
 }
 
 h1,
@@ -49,7 +43,7 @@ aside {
 
 @media screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 }
 
