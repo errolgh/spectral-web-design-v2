@@ -24,8 +24,8 @@ export default function Nav() {
         </div>
         <ul
           className={`${open ? 'animate-right fade' : ''}
-        transition duration-700 animate-li 
-        absolute z-30 top-0 left-full w-3/4
+         duration-700 animate-li 
+        absolute z-30 top-0 left-full w-3/5
         pr-12 pt-24 text-right h-screen bg-slate-200 lg:bg-transparent
         flex flex-col space-y-6 font-alata md:p-4 md:h-10 md:bg-transparent md:w-min
         md:visible md:flex-row md:space-x-8 md:space-y-0 md:static md:mb-6`}

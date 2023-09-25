@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start">
         {/*  Logo  */}
         <div className="flex flex-col items-center space-y-2 md:flex-row md:space-x-4 md:pr-8">
-          <div className="w-20">
+          <div className="flex w-20 justify-center pt-4 relative z-50">
             <Owl theme="light" />
           </div>
           <div className="flex flex-col text-center justify-center z-10 text-slate-200 font-bold">

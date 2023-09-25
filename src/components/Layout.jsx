@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div id='overflow-fix'>
       <Nav />
         <main>{children}</main>
       <Footer />
