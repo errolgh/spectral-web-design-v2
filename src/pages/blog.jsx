@@ -55,7 +55,6 @@ const BlogList = () => {
   // const {allContentfulBlogPost: { nodes: blogPosts },} = useStaticQuery(query)
   const data = useStaticQuery(query)
   const blogPosts = data.allContentfulBlogPost.nodes
-  console.log("bro, we're doin' a GraphQL", blogPosts)
   return (
     <Layout>
       <section className="pt-36 p-6 mx-auto flex flex-col bg-gray-50 max-w-lg md:max-w-xl lg:max-w-4xl">

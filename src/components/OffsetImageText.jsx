@@ -14,7 +14,7 @@ export default function OffsetImageText({ image }) {
         <img
           src={Graffiti}
           alt="Graffiti Alley"
-          className="md:w-9/12 lg:w-3/5 md:shadow-2xl"
+          className="md:w-9/12 lg:w-3/5 md:shadow-2xl h-full"
           loading="lazy"
         />
         {/*  Text Container  */}
@@ -23,7 +23,7 @@ export default function OffsetImageText({ image }) {
             What We Do
           </h2>
           <p className="max-w-md mx-auto text-center md:text-left md:mx-0">
-            We are international web development and design company based in
+            We are international web development, design and marketing agency based in
             Baltimore, MD. Our services cater to small businesses and
             professional individuals who want to grow, and understand that a{' '}
             <em>unique</em> web presence is imperative in this age of

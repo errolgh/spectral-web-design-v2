@@ -3,16 +3,15 @@ import Owl from '../images/svg/owl.js'
 import { Link } from 'gatsby'
 
 export default function Nav() {
-  // @TODO: <Nav /> now spans 100% of the window. This may not be ideal for larger screens
   const [open, setOpen] = useState(false)
 
   return (
     <header className="relative flex justify-center">
-      <nav className="bg-efferBlue text-efferBlue w-full absolute flex items-center justify-between font-bold md:px-5 md:text-slate-100 lg:justify-center lg:gap-x-80 xl:gap-x-96">
+      <nav className="bg-efferBlue text-efferBlue w-full absolute flex items-center justify-between font-bold md:px-5 md:text-slate-100 lg:justify-center max-w-6xl lg:gap-x-80 xl:gap-x-96">
         <div className="flex">
           {/*  Logo  */}
           <Link to="/">
-            <div className="flex w-20 p-4 pt-6 relative z-10">
+            <div className="flex w-20 p-4 pt-6 relative z-50">
               <Owl theme="light" />
             </div>
           </Link>
@@ -79,7 +78,6 @@ export default function Nav() {
               open ? 'open' : ''
             } z-40 block hamburger md:hidden focus:outline-none focus:ring-blue-50`}
           >
-            {/*  open class above gets toggled with js */}
             <span className="hamburger-top"></span>
             <span className="hamburger-middle"></span>
             <span className="hamburger-bottom"></span>
