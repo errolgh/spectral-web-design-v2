@@ -7,10 +7,10 @@ const AboutPage = () => {
     <Layout>
       <section className="pt-36 mb-20 p-6 mx-auto max-w-lg md:max-w-xl lg:max-w-2xl">
         <h1 className="text-4xl md:text-5xl font-bold mb-14">About Us</h1>
-        <h2 className="text-2xl font-bold mb-4 mt-16">A Passion for Growth</h2>
+        <h2 className="text-2xl font-bold mb-4 mt-16">Campaign Vision/Overview</h2>
         <p className="mb-6">
-          Lorem ipsum, dolor sit amet consectetur ez pz lorem squeezy. Sit atque
-          maxime cumque nesciunt in ad eveniet vero. Impedit, nemo. Lorem ipsum
+          Improvement ipsum, dolor sit amet consectetur ez pz lorem squeezy. Sit atque
+          maxime cumque nesciunt in ad eveniet vero. Innovation, nemo. Lorem ipsum
           dolor sit amet consectetur adipisicing elit. Itaque, eaque delectus.
           Voluptatem quis impedit hic ratione despacito ut quas dolorem
           cupiditate. Incidunt?
@@ -25,7 +25,7 @@ const AboutPage = () => {
           </Link>
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 mt-16">Improvement</h2>
+        <h2 className="text-2xl font-bold mb-4 mt-16">Approach and Methodology</h2>
         <p className="mb-6">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit atque
           maxime cumque nesciunt in ad eveniet vero. Impedit, nemo. Lorem ipsum
@@ -61,6 +61,8 @@ const AboutPage = () => {
           ipsum. Expedita earum in rem eligendi ipsum itaque suscipit, sequi
           incidunt?
         </p>
+        <h2>Client Testimonials and Success Stories/What people have to say/Porfolio</h2>
+        <h2>Community Involvement and Values</h2>
       </section>
     </Layout>
   )

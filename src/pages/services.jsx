@@ -9,7 +9,7 @@ const ServicesPage = () => {
         <h1 className="text-4xl md:text-5xl font-bold mb-14">
           Our Services
         </h1>
-        <h2 className='text-2xl font-bold mb-4 mt-16'>Web Development</h2>
+        <h2 className='text-2xl font-bold mb-4 mt-16'>Web Development (add page speed service, google my business, hosting maintainence, unlimited edits for retained clients)</h2>
         <p className="mb-6">
           Lorem ipsum, dolor sit amet consectetur ez pz lorem squeezy. Sit atque
           maxime cumque nesciunt in ad eveniet vero. Impedit, nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, eaque delectus. Voluptatem quis impedit hic ratione despacito ut quas dolorem cupiditate. Incidunt? 
