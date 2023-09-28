@@ -23,32 +23,38 @@ const ServicesPage = () => {
         <h2 className="text-2xl font-bold mb-4 mt-16">Web Design</h2>
         <p className="mb-6">
           At Spectral Web Designs, we take pride in our commitment to crafting
-          contemporary and modern web designs that align perfectly with your
-          brand's vision. We understand the importance of <creati></creati>ng a
-          visually appealing and user-friendly online presence. To ensure your
-          complete satisfaction, we offer multiple rounds of design iterations,
-          allowing us to fine-tune every detail until you're thrilled with the
-          result. Our goal is to provide you with a website that not only meets
-          your expectations but also showcases your unique identity effectively.
-          We encourage collaboration throughout the design process to achieve
-          the best outcome while maintaining a focus on delivering value and
-          excellence. We also provide graphic design and logos.
+          contemporary and modern web designs, stunning graphics, and compelling
+          logos that align perfectly with your brand's vision. We understand the
+          importance of creating a visually appealing and user-friendly online
+          presence, as well as eye-catching visuals that make a lasting
+          impression. To ensure your complete satisfaction, we offer multiple
+          rounds of design iterations for all our services, allowing us to
+          fine-tune every detail until you're thrilled with the result. Our goal
+          is to provide you with a comprehensive design package that not only
+          meets your expectations but also showcases your unique identity
+          effectively. We encourage collaboration throughout the design process
+          to achieve the best outcome while maintaining a focus on delivering
+          value and excellence.
         </p>
         <Link>
           <b>M. Arthur</b>
         </Link>
 
-        <h2 className="text-2xl font-bold mb-4 mt-16">Digital Marketing</h2>
+        <h2 className="text-2xl font-bold mb-4 mt-16">
+          Digital Marketing & Creative Content
+        </h2>
         <p className="mb-6">
-          Google Ads, Meda ads, PPC ads. Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Sit atque maxime cumque nesciunt in ad eveniet vero.
-          Impedit, nemo. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Quos doloremque obcaecati est, quam facere quis maxime magni
-          quaerat voluptates voluptatibus accusamus quo itaque odit ipsa
-          doloribus eligendi aliquid corporis nobis. Reprehenderit quaerat
-          accusantium provident dolores asperiores molestias. Accusamus,
-          corporis quis! Expedita earum in rem eligendi ipsum itaque suscipit,
-          sequi incidunt?
+          Our approach to digital marketing is multifaceted, tailored to cater
+          to diverse stakeholder needs. From strategically crafted Google Ads
+          and Media Ads campaigns that maximize your online visibility and
+          engagement to precisely targeted PPC ads that drive conversions, we
+          leverage a comprehensive array of tools to achieve your goals.
+          Additionally, our skilled content writing team ensures that our
+          blog-tier stakeholders receive valuable, informative, and engaging
+          content that not only resonates with their audience but also enhances
+          their digital presence and authority. We're committed to delivering
+          results that truly matter to all our stakeholders in the digital
+          marketing realm.
         </p>
         <Link>
           <b>M. Arthur</b>
@@ -68,10 +74,12 @@ const ServicesPage = () => {
 
         <h2 className="text-2xl font-bold mb-4 mt-16">Stakeholder Support</h2>
         <p className="mb-6">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit atque
-          maxime cumque nesciunt in ad eveniet vero. Impedit, nemo. Lorem,
-          ipsum. Expedita earum in rem eligendi ipsum itaque suscipit, sequi
-          incidunt?{' '}
+          Stakeholder support is the bedrock of our mission at Spectral Web
+          Designs. We prioritize open and transparent communication with all
+          stakeholders, ensuring that their voices are heard, needs are met, and
+          expectations exceeded. Through strong partnerships and a deep
+          commitment to understanding and addressing stakeholder concerns, we
+          foster a collaborative environment that drives our shared success.
         </p>
         <Link>
           <b>Reach out</b>
