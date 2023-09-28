@@ -69,7 +69,7 @@ export default function Nav() {
         </ul>
 
         {/*  Hamburger Button  */}
-        <div className="md:hidden p-2 pr-4">
+        <div className="md:hidden p-2 pr-6">
           <button
             onClick={() => setOpen(!open)}
             id="menu-btn"
