@@ -1,6 +1,7 @@
 import React from 'react'
 import Graffiti from '../images/graffiti-alley.webp'
 import { Link } from 'gatsby'
+import Feather from '../images/svg/feather.svg'
 
 export default function OffsetImageText({ image }) {
   return (
@@ -15,13 +16,14 @@ export default function OffsetImageText({ image }) {
           loading="lazy"
         />
         {/*  Text Container  */}
-        <div className="md:shadow-2xl top-48 pr-0 bg-gray-50 md:absolute md:right-16 lg:right-36 md:px-12 md:py-12 md:pl-12">
+        <div className="md:shadow-2xl top-48 pr-0 md:bg-gray-50 md:absolute md:right-16 lg:right-36 md:px-12 md:py-12 md:pl-12">
+          <Feather className="absolute -z-10 -top-60 -right-20 scale-150"/>
           <h2 className="max-w-lg mt-10 mb-6 font-bold text-4xl mx-auto text-center md:text-5xl md:mx-0 md:mt-0 md:text-left">
             What We Do
           </h2>
           <p className="max-w-md mx-auto text-center md:text-left md:mx-0">
-            We are international web development, design and marketing agency based in
-            Baltimore, MD. Our services cater to small businesses and
+            We are international web development, design and marketing agency
+            based in Baltimore, MD. Our services cater to small businesses and
             professional individuals who want to grow, and understand that a{' '}
             <em>unique</em> web presence is imperative in this age of
             cookie-cutter, WordPress and Wix sites.{' '}

@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Button from './Button'
+import FeatherOpen from '../images/svg/feather-open.svg'
 
 export default function PricingMatrix() {
   return (
-    <section id="pricing">
-      <div className='container max-w-6xl mx-auto'>
+    <section id="pricing" className="relative">
+      <FeatherOpen className="absolute -z-10 rotate-90 -top-44 scale-150" />
+      <div className=" container max-w-6xl mx-auto">
         <div className="flex flex-col items-center mt-32">
           <h2 className="text-4xl font-bold text-gray-700">Our Pricing</h2>
           <cite className="text-xl text-gray-700">(per month)</cite>

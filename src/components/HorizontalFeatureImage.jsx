@@ -3,6 +3,7 @@ import InfiniteEdits from '../images/svg/infinite-edits.svg'
 import WebDevelopment from '../images/svg/web-development.svg'
 import Hosting from '../images/svg/hosting.svg'
 import Contact from '../images/svg/contact.svg'
+import Feather from '../images/svg/feather.svg'
 
 
 const featureList = [
@@ -54,16 +55,17 @@ const Feature = ({ title, description, image, reverse }) => (
 export default function HorizontalFeatureImage() {
   return (
     <section>
-      <div className="flex flex-col justify-between items-center max-w-6xl mx-auto mt-32 px-10">
+      <div className="flex flex-col justify-between items-center max-w-6xl mx-auto mt-32 px-10 relative">
         {featureList.map((item, index) => (
           <Feature
-            title={item.title}
-            description={item.description}
-            image={item.image}
-            key={index}
-            reverse={item.reverse}
+          title={item.title}
+          description={item.description}
+          image={item.image}
+          key={index}
+          reverse={item.reverse}
           />
-        ))}
+          ))}
+          <Feather className="absolute -z-10 rotate-90 -bottom-10 -right-36 scale-150"/>
       </div>
     </section>
   )

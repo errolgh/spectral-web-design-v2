@@ -1,4 +1,5 @@
 import React from 'react'
+import FeatherOpen from '../images/svg/feather-open.svg'
 
 // @TODO: export svgs, or interpolate here, and add brand colors
 
@@ -6,8 +7,10 @@ export default function PitchIconDescription() {
   return (
     <section
       id="pitch-icon-description"
-      className="container mx-auto flex flex-col items-center mt-32 text-center lg:mt-56 px-6"
+      className="relative container mx-auto flex flex-col items-center mt-32 text-center lg:mt-56 px-6"
     >
+      <FeatherOpen className="absolute -top-52 -left-24 -z-10 scale-100
+       rotate-270"/>
       <h2 className="text-4xl font-bold md:text-5xl">How We Make It Happen</h2>
 
       <div className="gearbox">

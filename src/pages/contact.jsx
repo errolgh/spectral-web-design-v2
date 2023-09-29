@@ -11,6 +11,7 @@ import { Link } from 'gatsby'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
+import Feather from '../images/svg/feather.svg'
 
 // @TODO: once netlify is connected, check gatsby docs for anything else
 
@@ -45,8 +46,7 @@ const ContactPage = () => {
     <Layout>
       <section className="flex mt-24 md:mt-32 min-h-full mb-2 md:mb-24 justify-center items-center">
         <div className="flex flex-col space-y-6 w-full max-w-6xl p-8 md:flex-row md:space-x-6 md:space-y-0">
-          <div className="flex flex-col justify-between space-y-8 md:p-12 lg:p-6">
-            {/* <div className='w-32 mx-auto h-32 rounded-full bg-fuchsia-100'></div> */}
+          <div className="relative flex flex-col justify-between space-y-8 md:p-12 lg:p-6">
             <div>
               <h1 id="contact" className="font-bold tracking-wide text-4xl">
                 {' '}
@@ -60,15 +60,15 @@ const ContactPage = () => {
             <div className="flex flex-col space-y-6">
               <div className="inline-flex space-x-2 items-center">
                 <IoCall className="text-teal-500 text-xl" />
-                <span>(555)555-5555</span>
+                <span>(908) 472-1977</span>
               </div>
               <div className="inline-flex space-x-2 items-center">
                 <IoMailSharp className="text-teal-500 text-xl" />
-                <span>johndoe@email.com</span>
+                <span>errolwatsondev@gmail.com</span>
               </div>
               <div className="inline-flex space-x-2 items-center">
                 <IoLocationSharp className="text-teal-500 text-xl" />
-                <span>123 Main Street, Anytown, USA</span>
+                <span>Remote</span>
               </div>
             </div>
             <div className="flex text-lg space-x-4 text-teal-500">
@@ -87,14 +87,15 @@ const ContactPage = () => {
             </div>
           </div>
           <div>
-            <div className="bg-white shadow-lg rounded-xl p-8 text-gray-600 h-full">
+            <div className="relative bg-white shadow-lg rounded-xl p-8 text-gray-600 h-full">
+              <Feather className="absolute scale-150 -z-10 right-40 rotate-90" />
               <form
                 className="flex flex-col space-y-2 text-sm md:w-80"
                 onSubmit={handleSubmit(onSubmit)}
                 onSubmitt="submit"
                 name="contact v1"
                 method="POST"
-                data-netlify="true"
+                netlify
               >
                 {/* name input */}
                 <div>
@@ -169,35 +170,17 @@ const ContactPage = () => {
                   Send
                 </button>
                 {/* as per netlify forms: */}
-                <input type="hidden" value="contact v1" className="hidden" />
+                <input
+                  type="hidden"
+                  value="contact v1"
+                  className="hidden"
+                  name="contact"
+                />
               </form>
             </div>
           </div>
         </div>
       </section>
-
-      {/* <section className="pt-36 mb-20 p-6 mx-auto max-w-lg md:max-w-xl lg:max-w-2xl">
-        <h1 className="text-4xl md:text-5xl font-bold mb-14">Reach Out</h1>
-        <h2 className="text-2xl font-bold mb-4 mt-16">Let's Work Together</h2>
-        <form className='mb-10 mt-6' action="">
-          <input className="h-12 border-2 border-zinc-400 rounded-lg p-2" type="text" placeholder="Entire Form lol"/>
-        </form>
-        <p className="mb-6">
-          Lorem ipsum, dolor sit amet consectetur ez pz lorem squeezy. Sit atque
-          maxime cumque nesciunt in ad eveniet vero. Impedit, nemo. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Itaque, eaque delectus.
-          Voluptatem quis impedit hic ratione despacito ut quas dolorem
-          cupiditate. Incidunt?
-        </p>
-        <p className="mb-6">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit atque
-          maxime cumque nesciunt in ad eveniet vero. Impedit, nemo. Lorem,
-          ipsum. Expedita earum in rem eligendi ipsum itaque suscipit, sequi
-          incidunt?
-        </p>
-
-       
-      </section> */}
     </Layout>
   )
 }

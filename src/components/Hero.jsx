@@ -5,8 +5,9 @@ import { Link } from 'gatsby'
 
 export default function Hero() {
   return (
-    //  Hero Section
-    <section className="relative bg-efferBlue" id="hero">
+    <section className="relative bg-efferBlue topography-gradient" id="hero">
+      {/* https://heropatterns.com/ */}
+      
       <div className="max-w-6xl flex flex-col-reverse mx-auto p-10 pt-0 lg:flex-row lg:py-36">
         {/*  Content Container  */}
         <div className="flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52">
@@ -24,8 +25,8 @@ export default function Hero() {
           </div>
         </div>
         {/*  Image  */}
-        <div className="pt-24 mb-12 relative mx-auto w-3/5 sm:w-2/5 lg:mt-12 lg:mr-0 lg:mx-0 lg:ml-28 lg:w-2/5 lg:mb-0 lg:pt-0">
-          <DevAstronaut />
+        <div className="pt-24 mb-12 mx-auto w-3/5 sm:w-2/5 lg:mt-12 lg:mr-0 lg:mx-0 lg:ml-28 lg:w-2/5 lg:mb-0 lg:pt-0">
+          <DevAstronaut/>
         </div>
       </div>
     </section>
