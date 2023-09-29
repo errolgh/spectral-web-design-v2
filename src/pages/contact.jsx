@@ -94,7 +94,7 @@ const ContactPage = () => {
                 onSubmitt="submit"
                 name="contact v1"
                 method="POST"
-                data-netlify="false"
+                data-netlify="true"
               >
                 {/* name input */}
                 <div>
