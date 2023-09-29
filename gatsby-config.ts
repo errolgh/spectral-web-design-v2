@@ -7,7 +7,7 @@
 // gatsby-config.js:
 
 // probably from jondjones:
-require("dotenv").config({
+require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
@@ -20,7 +20,6 @@ require("dotenv").config({
 //     path: `.env.${process.env.NODE_ENV}`,
 //   })
 // }
-
 
 const config = {
   siteMetadata: {
@@ -64,6 +63,12 @@ const config = {
         rule: {
           include: /images\/.*\.svg/,
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-anchor-links',
+      options: {
+        offset: -40,
       },
     },
     // {

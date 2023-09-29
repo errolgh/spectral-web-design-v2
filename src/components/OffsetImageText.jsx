@@ -2,9 +2,6 @@ import React from 'react'
 import Graffiti from '../images/graffiti-alley.webp'
 import { Link } from 'gatsby'
 
-// @TODO: consider adding a shadow to each box for depth and reevaluate text box padding-bottom.
-// @TODO: could desktop be more centered?.
-
 export default function OffsetImageText({ image }) {
   return (
     <section id="offset-image-text">

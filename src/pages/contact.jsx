@@ -48,7 +48,10 @@ const ContactPage = () => {
           <div className="flex flex-col justify-between space-y-8 md:p-12 lg:p-6">
             {/* <div className='w-32 mx-auto h-32 rounded-full bg-fuchsia-100'></div> */}
             <div>
-              <h1 className="font-bold tracking-wide text-4xl"> Contact Us</h1>
+              <h1 id="contact" className="font-bold tracking-wide text-4xl">
+                {' '}
+                Contact Us
+              </h1>
               <p className="pt-2 text-sm">
                 Filling out this form will notify our someone from our team. Let
                 us know what your needs are so we can provide what we do best!

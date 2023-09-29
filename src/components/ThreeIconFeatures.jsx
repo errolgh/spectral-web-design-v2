@@ -3,7 +3,7 @@ import Devices from '../images/svg/devices.svg'
 import ThreeUpArrows from '../images/svg/three-up-arrows.svg'
 import Nerd from '../images/svg/nerd.svg'
 
-// @TODO: Convert svgs to React Components
+// @TODO: Convert svgs to React Components AND abstract fill properties
 
 export default function ThreeIconFeatures() {
   return (

@@ -11,8 +11,6 @@ John Smilga Gatsby Course fixed this component #73,74-ish
 
   @TODO: Remember to pull from the gatsby-contentful-netlify starter repo for plugins
   @TODO: This is at *least* 2 components. '<BlogList />' should not be defind in the UI layer
-  @TODO: start at window position-y=0 when clicking on links
-  @TODO: THIS PAGE IS BROKEN IN PRODUCTION ONLY?????? :( try graphql if not fixable with REST
 
   Data Layer
   https://www.youtube.com/watch?v=4iCBlDqLBOQ&t=1s&ab_channel=TheCodeAngle

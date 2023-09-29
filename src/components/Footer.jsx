@@ -4,6 +4,8 @@ import Facebook from '../images/svg/icon-facebook.svg'
 import Twitter from '../images/svg/icon-twitter.svg'
 import Pinterest from '../images/svg/icon-pinterest.svg'
 import Instagram from '../images/svg/icon-instagram.svg'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
+import { Link } from 'gatsby'
 
 export default function Footer() {
   return (
@@ -25,124 +27,132 @@ export default function Footer() {
         {/*  Menus Container  */}
         <div className="flex flex-col space-y-12 md:space-x-48 md:flex-row md:space-y-0">
           {/*  Menu 1  */}
-          <div className="flex flex-col items-center w-full md:items-start">
+          <div className="flex flex-col items-center w-full md:items-start group">
             <div className="mb-5 font-bold text-white capitalize">Menu</div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Home
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/services"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/services"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Services
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/portfolio"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/portfolio"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Portfolio
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/blog"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/blog"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Blog
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/about"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/about"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 About
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/contact"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/contact"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
           {/*  Menu 2  */}
           <div className="flex flex-col items-center w-full md:items-start">
             <div className="mb-5 font-bold text-white capitalize">Services</div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <AnchorLink
+                to="/services#web-development"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Web Development
-              </a>
+              </AnchorLink>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <AnchorLink
+                to="/services#web-design"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Web Design
-              </a>
+              </AnchorLink>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <AnchorLink
+                to="/services#digital-marketing"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Digital Marketing
-              </a>
+              </AnchorLink>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <AnchorLink
+                to="/services#on-demand"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
+              >
+                On-Demand
+              </AnchorLink>
+            </div>
+            <div className="flex flex-col items-center space-y-3 md:items-start">
+              <AnchorLink
+                to="/services#support"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Support
-              </a>
+              </AnchorLink>
             </div>
           </div>
           {/*  Menu 3  */}
           {/* <div className="flex flex-col items-center w-full md:items-start">
             <div className="mb-5 font-bold text-white capitalize">Site Map</div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 About
               </a>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Our team
               </a>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Careers
               </a>
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
-              <a
-                href="/"
-                className="capitalize text-neutral-200 hover:text-cyan mb-1"
+              <Link
+                to="/"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
                 Contact
               </a>

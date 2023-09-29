@@ -7,20 +7,26 @@ const ServicesPage = () => {
     <Layout>
       <section className="pt-36 mb-20 p-6 mx-auto max-w-lg md:max-w-xl lg:max-w-4xl">
         <h1 className="text-4xl md:text-5xl font-bold mb-14">Our Services</h1>
-        <h2 className="text-2xl font-bold mb-4 mt-16">Web Development</h2>
+        <h2 id="web-development" className="text-2xl font-bold mb-4 mt-16">
+          Web Development
+        </h2>
         <p className="mb-6">
-          Hours of web development using our proprietary library of functional
-          features and creation of unique page elements including your unique
-          branding, media, blogging, and ecommerce. dev team with years of
-          experience. Standard websites, websites with blogs, and ecommerce
-          integrations through Shopify and Square.
+          We've invested countless hours in web development, using our
+          proprietary library of functional features to create unique page
+          elements that reflect your distinctive brand. Whether it's crafting
+          standard websites, dynamic sites with integrated blogs, or seamless
+          e-commerce solutions through platforms like Shopify and Square, our
+          experienced team ensures a top-tier online presence for your business.
         </p>
         <p className="mb-6">
-          Google page speed improvements (image), google my business
-          optimization, hosting and server maintainence
+          In addition to web development, we offer Google Page Speed
+          enhancements, Google My Business optimization, and expert hosting and
+          server maintenance services to keep your digital presence at its best.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 mt-16">Web Design</h2>
+        <h2 id="web-design" className="text-2xl font-bold mb-4 mt-16">
+          Web Design
+        </h2>
         <p className="mb-6">
           At Spectral Web Designs, we take pride in our commitment to crafting
           contemporary and modern web designs, stunning graphics, and compelling
@@ -40,8 +46,8 @@ const ServicesPage = () => {
           <b>M. Arthur</b>
         </Link>
 
-        <h2 className="text-2xl font-bold mb-4 mt-16">
-          Digital Marketing & Creative Content
+        <h2 id="digital-marketing" className="text-2xl font-bold mb-4 mt-16">
+          Digital Marketing & Blog Writing
         </h2>
         <p className="mb-6">
           Our approach to digital marketing is multifaceted, tailored to cater
@@ -60,7 +66,9 @@ const ServicesPage = () => {
           <b>M. Arthur</b>
         </Link>
 
-        <h2 className="text-2xl font-bold mb-4 mt-16">On-Demand</h2>
+        <h2 id="on-demand" className="text-2xl font-bold mb-4 mt-16">
+          On-Demand
+        </h2>
         <p className="mb-6">
           We offer on-demand, freelance web development services tailored to
           your specific needs. Whether you have an existing project that
@@ -72,7 +80,9 @@ const ServicesPage = () => {
           over your development choices.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 mt-16">Stakeholder Support</h2>
+        <h2 id="support" className="text-2xl font-bold mb-4 mt-16">
+          Stakeholder Support
+        </h2>
         <p className="mb-6">
           Stakeholder support is the bedrock of our mission at Spectral Web
           Designs. We prioritize open and transparent communication with all
