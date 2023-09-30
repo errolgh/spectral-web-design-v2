@@ -7,29 +7,27 @@ export default function Layout({ children }) {
   return (
     <div id="overflow-fix">
       {/* don't remember the reason we used id instead of just using tailwind overflow-x-hidden... */}
+      {/* ... but the actual overflow occured on iPhone14*/}
       <Nav />
-      <m.main
+      <main
         initial={{
           opacity: 0,
-          x: -200,
         }}
         animate={{
           opacity: 1,
-          x: 0,
         }}
         exit={{
           opacity: 0,
-          x: 200,
         }}
         transition={{
-          type: 'spring',
-          mass: 0.35,
-          stiffness: 75,
-          duration: 0.3,
+          type: 'tween',
+          mass: 1.35,
+          stiffness: 100,
+          duration: 0.2,
         }}
       >
         {children}
-      </m.main>
+      </main>
       <Footer />
     </div>
   )
