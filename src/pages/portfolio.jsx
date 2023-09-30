@@ -12,7 +12,7 @@ const PortfolioPage = () => {
             <img
               src={elite}
               alt="Graffiti Alley"
-              className="md:w-9/12 lg:w-3/5 h-full"
+              className="md:w-9/12 lg:w-3/5"
               loading="lazy"
             />
           </div>

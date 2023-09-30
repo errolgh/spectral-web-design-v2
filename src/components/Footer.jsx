@@ -159,7 +159,7 @@ export default function Footer() {
             </div>
           </div> */}
         </div>
-        {/*  Social Container  */}
+        {/*  Social Container  @TODO: Add hue-rotate elements that match theme colors: https://codepen.io/sosuke/pen/Pjoqqp */}
         <div className="flex flex-col items-center space-y-4 md:items-start pl-4">
           <div className="flex space-x-6">
             <a href="/">
