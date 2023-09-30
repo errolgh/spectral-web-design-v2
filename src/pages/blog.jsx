@@ -4,7 +4,6 @@ import { Link } from 'gatsby'
 import { graphql, useStaticQuery } from 'gatsby'
 
 /*
-@FIXME: just a reminder this highlighting exists on my vscode :)
 
 John Smilga Gatsby Course fixed this component #73,74-ish
 
