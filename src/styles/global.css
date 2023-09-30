@@ -7,6 +7,7 @@
 /* @TODO: CSS variables maybe, not sure of the tailwind ideology, but `@apply` should be applied with some consideration */
 
 /* |||||||||||||||||||||| Resets & BG Color ||||||||||||||||||||||*/
+
 *,
 *::before,
 *::after {
@@ -28,7 +29,8 @@ body {
   overflow-x: hidden;
 }
 
-/* |||||||||||||||||||||| Heading Styles |||||||||||||||||||||| */
+/* |||||||||||||||||||||| Typography Styles |||||||||||||||||||||| */
+
 h1,
 h2,
 h3,
@@ -54,7 +56,8 @@ aside {
   @apply text-sm;
 }
 
-/* Hamburger Menu */
+/* |||||||||||||||||||||| Hamburger Menu |||||||||||||||||||||| */
+
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -185,7 +188,7 @@ aside {
   @apply text-teal-600;
 }
 
-/* Gears */
+/* |||||||||||||||||||||| Gear Animations |||||||||||||||||||||| */
 .gearbox {
   text-align: center;
   position: relative;
@@ -239,7 +242,7 @@ aside {
   }
 }
 
-/* Pricing */
+/* |||||||||||||||||||||| Pricing Modal |||||||||||||||||||||| */
 .prices {
   display: flex;
   flex-direction: column;
