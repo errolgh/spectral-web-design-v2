@@ -1,6 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8e5c6db6-b8e5-4e2f-87d1-23aae8c7f15b/deploy-status)](https://app.netlify.com/sites/spectraldigitallabs/deploys)
 
-
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
@@ -54,3 +53,24 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 <!-- Contentful Tutorial: -->
 <!-- https://www.youtube.com/watch?v=zygumAuw1bg&ab_channel=jondjones -->
 <!-- https://www.youtube.com/watch?v=24pIMy_-bqE&ab_channel=jondjones -->
+
+<!-- 404 -->
+<section className="pt-36 mb-20 p-6 mx-auto max-w-lg md:max-w-xl lg:max-w-2xl">
+
+<!-- About -->
+<section className="pt-36 mb-20 p-6 mx-auto max-w-lg md:max-w-xl lg:max-w-4xl">
+
+<!-- Blog has to be margin-top for some reason to avoid f.o.u.c. in page transition :eye-roll: -->
+<section className="mt-40 pl-10 mx-auto flex flex-col bg-gray-50 max-w-lg md:max-w-xl lg:max-w-4xl">
+
+<!-- Contact -->
+<section className="flex mt-24 md:mt-32 min-h-full mb-2 md:mb-24 justify-center items-center">
+
+<!-- Blog Details -->
+<section className="flex flex-col pt-36 items-center p-6">
+
+<!-- Portfolio -->
+<section className="pt-36 mb-20 p-6 mx-auto max-w-lg md:max-w-2xl lg:max-w-4xl">
+
+<!-- Services -->
+<section className="pt-36 mb-20 p-6 mx-auto max-w-lg md:max-w-xl lg:max-w-4xl">

@@ -7,7 +7,7 @@ export default function Nav() {
 
   return (
     <header className="relative flex justify-center">
-      <nav className="topography-gradient text-efferBlue w-full absolute flex items-center justify-between font-bold md:px-5 md:text-slate-100 lg:justify-center lg:gap-x-80 xl:gap-x-96">
+      <nav className="topography-gradient text-efferBlue w-full flex items-center justify-between font-bold md:px-5 md:text-slate-100 lg:justify-center lg:gap-x-80 xl:gap-x-96">
           <Link to="/">
         <div className="flex">
           {/*  Logo  */}
@@ -15,10 +15,10 @@ export default function Nav() {
               <Owl theme="light" />
             </div>
             <div className="flex flex-col text-center justify-center z-10 text-slate-200">
-              <span className="text-xl tracking-wider pr-1">Spectral</span>
-              <span className="text-xs tracking-widest uppercase">
-                Digital Labs
-              </span>
+            <span className="text-xl tracking-widest text-slate-200">Spectral</span>
+            <span className="text-xs tracking-widest uppercase text-slate-200 font-bold">
+              Digital Labs
+            </span>
             </div>
         </div>
           </Link>

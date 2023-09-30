@@ -65,7 +65,7 @@ const BlogDetails = ({ data }) => {
             <p className="mb-8">{'< Blog List'}</p>
           </Link>
           <div className="mb-16">
-            <h1 className="text-3xl md:text-5xl font-bold mb-6 max-w-2xl">{blog.title}</h1>
+            <h1 className="mb-6">{blog.title}</h1>
             <div className="w-1/2 ml-24 mb-6">
               <img
                 src={blog.heroImage.file.url}

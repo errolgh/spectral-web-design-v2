@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       {/* don't remember the reason we used id instead of just using tailwind overflow-x-hidden... */}
       {/* ... but the actual overflow occured on iPhone14*/}
       <Nav />
-      <main
+      <m.main
         initial={{
           opacity: 0,
         }}
@@ -27,7 +27,7 @@ export default function Layout({ children }) {
         }}
       >
         {children}
-      </main>
+      </m.main>
       <Footer />
     </div>
   )

@@ -15,6 +15,7 @@ import PricingMatrix from '../components/PricingMatrix.jsx'
 // @TODO: Dark Mode via TailwindCSS
 // @TODO: Animations
 // @TODO: SEO CodeSandbox: https://codesandbox.io/s/gatsby-framer-motion-layout-transition-bgldj?from-embed=&file=/src/pages/page-2.js
+// @TODO: Add tailwind x prettier plugin --dev
 // @FIXME: just a reminder this highlighting exists on my vscode :)
 
 const IndexPage = () => {
