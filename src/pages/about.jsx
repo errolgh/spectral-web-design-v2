@@ -62,7 +62,7 @@ const AboutPage = () => {
           believe in a unique and effective web presence for all. Our commitment
           to affordable rates, location-independent work, and life design is
           woven into our DNA. We champion a fair and flexible approach, and
-          reject limitations to propel your business forward. Join us in
+          reject limitations in order to propel your business forward. Join us in
           redefining the web experience for the ambitious. Your success is our
           passion, and we're here to make it happen."
         </p>

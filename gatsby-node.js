@@ -2,11 +2,10 @@ const path = require(`path`)
 // https://github.com/contentful/starter-gatsby-blog/blob/master/gatsby-node.js
 // https://www.gatsbyjs.com/docs/why-gatsby-uses-graphql/#create-pages-using-graphql
 
-
 exports.createPages = async ({ actions, graphql }) => {
   const results = await graphql(`
     query BlogQuery {
-      allContentfulBlogPost{
+      allContentfulBlogPost {
         edges {
           node {
             slug
@@ -31,12 +30,10 @@ exports.createPages = async ({ actions, graphql }) => {
       // any `component` assigned to a page gets access to the `pageContext` obj (named ReactComponent below)
       component: BlogDetails,
       context: {
-          slug: blog.slug,
+        slug: blog.slug,
         // heroImage: 'PRETEND IMAGE',
         // .....,
       },
     })
-
-
   })
 }

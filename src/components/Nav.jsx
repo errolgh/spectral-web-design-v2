@@ -8,20 +8,20 @@ export default function Nav() {
   return (
     <header className="relative flex justify-center">
       <nav className="topography-gradient text-efferBlue w-full absolute flex items-center justify-between font-bold md:px-5 md:text-slate-100 lg:justify-center lg:gap-x-80 xl:gap-x-96">
+          <Link to="/">
         <div className="flex">
           {/*  Logo  */}
-          <Link to="/">
             <div className="flex w-20 p-4 pt-6 relative z-50">
               <Owl theme="light" />
             </div>
-          </Link>
-          <div className="flex flex-col text-center justify-center z-10 text-slate-200">
-            <span className="text-xl tracking-wider pr-1">Spectral</span>
-            <span className="text-xs tracking-widest uppercase">
-              Digital Labs
-            </span>
-          </div>
+            <div className="flex flex-col text-center justify-center z-10 text-slate-200">
+              <span className="text-xl tracking-wider pr-1">Spectral</span>
+              <span className="text-xs tracking-widest uppercase">
+                Digital Labs
+              </span>
+            </div>
         </div>
+          </Link>
         <ul
           className={`${open ? 'animate-right fade' : ''}
          duration-700 animate-li 

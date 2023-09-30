@@ -11,7 +11,7 @@ import { Link } from 'gatsby'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
-import Feather from '../images/svg/feather.svg'
+import FeatherOpen from '../images/svg/feather-open.svg'
 
 // @TODO: once netlify is connected, check gatsby docs for anything else
 
@@ -88,7 +88,7 @@ const ContactPage = () => {
           </div>
           <div>
             <div className="relative bg-white shadow-lg rounded-xl p-8 text-gray-600 h-full">
-              <Feather className="absolute scale-150 -z-10 right-40 rotate-90" />
+              <FeatherOpen className="absolute scale-150 -z-10 rotate-6 -left-20 top-48" />
               <form
                 className="flex flex-col space-y-2 text-sm md:w-80"
                 onSubmit={handleSubmit(onSubmit)}
