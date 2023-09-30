@@ -8,10 +8,12 @@ import HorizontalFeatureImage from '../components/HorizontalFeatureImage.jsx'
 import BannerCTA from '../components/BannerCTA.jsx'
 import PricingMatrix from '../components/PricingMatrix.jsx'
 
-// @TODO: Change all these components with props so we can keep our code dry by importing variations to pages, not components-- data objects and files
-// @TODO: Should all /images go to /static? and should I use the <Img /> gatsby component for images?
-// @TODO: Configure npm reading-time - https://github.com/search?q=repo%3Acontentful%2Fstarter-gatsby-blog%20publishDate&type=code
-// @TODO: probably increase text sizes/get typography right
+// @TODO: Reusable components: Change all these components to use props. This will keep our code dry by importing each variation to pages, with data imports
+// @TODO: Gatsby Image optimization SOLUTION: https://www.youtube.com/watch?v=dJ1EslHwXu0&ab_channel=Gatsby
+// @DONE: REDDIT BOOKMARK FOR i8n/Configure npm reading-time if needed- https://github.com/search?q=repo%3Acontentful%2Fstarter-gatsby-blog%20publishDate&type=code
+// @TODO: Perfect typography/colors via theming/tailwind-config.ts
+// @TODO: Dark Mode via TailwindCSS
+// @TODO: Animations
 
 const IndexPage = () => {
   return (
