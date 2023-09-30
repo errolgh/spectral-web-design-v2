@@ -42,15 +42,12 @@ const ContactForm = () => {
     console.log('first', data)
   }
   return (
-    <section className="flex mt-24 md:mt-32 min-h-full mb-2 md:mb-24 justify-center items-center">
-      <div className="flex flex-col space-y-6 w-full max-w-6xl p-8 md:flex-row md:space-x-6 md:space-y-0">
+    <section className="flex mb-20 md:mt-6 min-h-full md:mb-24 justify-center items-center">
+      <div className="flex flex-col space-y-6 w-full max-w-5xl p-8 md:flex-row md:space-x-6 md:space-y-0">
         <div className="relative flex flex-col justify-between space-y-8 md:p-12 lg:p-6">
           <div>
-            <h1 id="contact" className="font-bold tracking-wide text-4xl">
-              {' '}
-              Contact Us
-            </h1>
-            <p className="pt-2 text-sm">
+            <h1 id="contact"> Contact Us</h1>
+            <p className="pt-4">
               Filling out this form will notify our someone from our team. Let
               us know what your needs are so we can provide what we do best!
             </p>
@@ -58,15 +55,15 @@ const ContactForm = () => {
           <div className="flex flex-col space-y-6">
             <div className="inline-flex space-x-2 items-center">
               <IoCall className="text-teal-500 text-xl" />
-              <span>(908) 472-1977</span>
+              <span className="text-gray-600">(908) 472-1977</span>
             </div>
             <div className="inline-flex space-x-2 items-center">
               <IoMailSharp className="text-teal-500 text-xl" />
-              <span>errolwatsondev@gmail.com</span>
+              <span className="text-gray-600">errolwatsondev@gmail.com</span>
             </div>
             <div className="inline-flex space-x-2 items-center">
               <IoLocationSharp className="text-teal-500 text-xl" />
-              <span>Remote</span>
+              <span className="text-gray-600">Remote</span>
             </div>
           </div>
           <div className="flex text-lg space-x-4 text-teal-500">

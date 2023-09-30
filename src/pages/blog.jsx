@@ -4,7 +4,6 @@ import { Link } from 'gatsby'
 import { graphql, useStaticQuery } from 'gatsby'
 
 /*
-@FIXME: just a reminder this highlighting exists on my vscode :)
 
 John Smilga Gatsby Course fixed this component #73,74-ish
 
@@ -54,17 +53,13 @@ const BlogList = () => {
   const blogPosts = data.allContentfulBlogPost.nodes
   return (
     <Layout>
-      <section className="pt-36 p-6 mx-auto flex flex-col bg-gray-50 max-w-lg md:max-w-xl lg:max-w-4xl">
-        <h1 className="text-4xl md:text-5xl font-bold mb-14">
-          Spectral Digital Labs Blog
-        </h1>
+      <section className="mt-20 mb-20 px-6 mx-auto max-w-lg md:max-w-xl lg:max-w-6xl">
+        <h1 className="mb-14 text-center">Spectral Digital Labs Blog</h1>
         <div className="flex flex-wrap gap-16 justify-center">
           {blogPosts?.map((post) => (
             <div key={post.id}>
               <Link to={`/blog/${post.slug}`}>
-                <div className="flex flex-col py-6 mb-8 max-w-sm bg-white p-2 shadow-lg rounded-lg justify-between">
-                  {/* move the key from this section? semantically-- does every blog need its own section? */}
-                  {/* {console.log('blogPosts', blogPosts.items)} */}
+                <div className="flex flex-col py-6 mb-8 max-w-sm bg-white px-8 shadow-lg rounded-lg justify-between">
                   <h2 className="text-xl md:text-2xl mb-6">{post.title}</h2>
                   <div className="max-w-sm mx-auto">
                     <img

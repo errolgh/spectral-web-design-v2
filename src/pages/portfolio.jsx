@@ -5,7 +5,7 @@ import elite from '../images/elite-device-mockup.png'
 const PortfolioPage = () => {
   return (
     <Layout>
-      <section className="pt-36 mb-20 p-6 mx-auto max-w-lg md:max-w-2xl lg:max-w-4xl">
+      <section className="mt-20 mb-20 px-6 mx-auto max-w-lg md:max-w-xl lg:max-w-4xl">
         <h1 className="text-4xl md:text-5xl font-bold mb-14">Our Work</h1>
         <div>
           <div className="">

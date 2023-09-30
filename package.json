@@ -20,6 +20,7 @@
     "autoprefixer": "^10.4.15",
     "contentful": "^10.5.2",
     "dotenv": "^16.3.1",
+    "framer-motion": "^10.16.4",
     "gatsby": "^5.12.4",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
