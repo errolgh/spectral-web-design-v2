@@ -11,7 +11,7 @@ const PortfolioPage = () => {
           <div className="">
             <img
               src={elite}
-              alt="Graffiti Alley"
+              alt="Elite Dialysis Center"
               className="md:w-9/12 lg:w-3/5"
               loading="lazy"
             />
