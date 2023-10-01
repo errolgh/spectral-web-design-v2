@@ -12,7 +12,7 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import FeatherOpen from '../../images/svg/feather-open.svg'
 
-// @TODO: once netlify is connected, check gatsby docs for anything else
+// @TODO: once netlify is connected, check gatsby/netlify docs for anything else
 
 // const onSubmit = (data) => netlify.handleSubmit(null, data)
 

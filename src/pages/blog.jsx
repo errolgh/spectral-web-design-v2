@@ -7,7 +7,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 John Smilga Gatsby Course fixed this component #73,74-ish
 
-  @TODO: Remember to pull from the gatsby-contentful-netlify starter repo for plugins
+  @TODO: Remember to pull from the gatsby-contentful-netlify starter repo for any additional plugins
   @TODO: This is at *least* 2 components. '<BlogList />' should not be defind in the UI layer
 
   Data Layer

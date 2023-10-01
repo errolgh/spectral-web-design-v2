@@ -1,7 +1,7 @@
 import React from 'react'
 import FeatherOpen from '../images/svg/feather-open.svg'
 
-// @TODO: export svgs, or interpolate here, and add brand colors
+// @TODO: export svgs, or interpolate here, to quickly replace brand colors as needed
 
 export default function PitchIconDescription() {
   return (

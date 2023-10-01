@@ -13,8 +13,8 @@ import PricingMatrix from '../components/PricingMatrix.jsx'
 // @DONE: REDDIT BOOKMARK FOR i8n/Configure npm reading-time if needed- https://github.com/search?q=repo%3Acontentful%2Fstarter-gatsby-blog%20publishDate&type=code
 // @TODO: Perfect typography/colors via theming/tailwind-config.ts
 // @TODO: Dark Mode via TailwindCSS
-// @TODO: Animations
-// @TODO: SEO CodeSandbox: https://codesandbox.io/s/gatsby-framer-motion-layout-transition-bgldj?from-embed=&file=/src/pages/page-2.js
+// @TODO: On-Scroll Animations
+// @TODO: Use this for the SEO stuff I ripped out earlier CodeSandbox: https://codesandbox.io/s/gatsby-framer-motion-layout-transition-bgldj?from-embed=&file=/src/pages/page-2.js
 // @TODO: Add tailwind x prettier plugin --dev
 // @FIXME: just a reminder this highlighting exists on my vscode :)
 

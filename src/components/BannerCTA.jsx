@@ -2,6 +2,7 @@ import React from 'react'
 import Button from './Button'
 
 // @TODO: Add teal to isBreakOrContinueStatement
+// idk what the todo above means anymore
 
 export default function BannerCTA() {
   return (
