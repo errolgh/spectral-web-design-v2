@@ -28,7 +28,7 @@ const ServicesPage = () => {
           Web Design
         </h2>
         <p className="mb-6">
-          At Spectral Digital Labs, we take pride in our commitment to crafting
+          At Grateful Web Designs, we take pride in our commitment to crafting
           contemporary and modern web designs, stunning graphics, and compelling
           logos that align perfectly with your brand's vision. We understand the
           importance of creating a visually appealing and user-friendly online
@@ -84,7 +84,7 @@ const ServicesPage = () => {
           Stakeholder Support
         </h2>
         <p className="mb-6">
-          Stakeholder support is the bedrock of our mission at Spectral Web
+          Stakeholder support is the bedrock of our mission at Grateful Web
           Designs. We prioritize open and transparent communication with all
           stakeholders, ensuring that their voices are heard, needs are met, and
           expectations exceeded. Through strong partnerships and a deep

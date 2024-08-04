@@ -23,7 +23,7 @@ require('dotenv').config({
 
 const config = {
   siteMetadata: {
-    title: `Spectral Digital Labs`,
+    title: `Grateful Web Designs`,
     // title: `Spectral Web Design v2`,
     siteUrl: `https://www.yourdomain.tld`,
   },

@@ -7,7 +7,7 @@ const AboutPage = () => {
     <Layout>
       <section className="mt-20 mb-20 px-6 mx-auto max-w-lg md:max-w-xl lg:max-w-4xl">
         <h1 className="mb-14">
-          The Spectral Methodology
+          The Grateful Methodology
         </h1>
         <h2 className="text-2xl font-bold mb-4 mt-16">Our Approach</h2>
         <p className="mb-6">
@@ -20,7 +20,7 @@ const AboutPage = () => {
           It's unfair to have to spend thousands of dollars upfront, and even
           more every month thereafter for static websites. It favors most to
           have the type of service that allows them to invest more into creating
-          better products and services for their clientele. Spectral
+          better products and services for their clientele. Grateful Web Designs
           demonstrates a business model that lets you participate on the web at
           a reasonable rate and still provide a custom web presence.
         </p>
@@ -30,7 +30,7 @@ const AboutPage = () => {
           entities. They often lack the ability to provide optimization tools,
           easy management for the ever-growing number of plugins added as your
           site matures, and offer scarce support without having to spend a
-          fortune. Spectral Digital Labs builds websites from scratch without
+          fortune. Grateful Web Designs builds websites from scratch without
           these bulky 3rd-party ecosystems in order to combat these concerns. We
           additionally include unlimited content and media updates, on-site SEO
           management, and user support as needed to our standard and premium
@@ -57,7 +57,7 @@ const AboutPage = () => {
           Empowering Growth through Digital Ascendancy
         </small>
         <p className="mb-6">
-          "At Spectral Digital Labs, our goal is to revolutionize the digital
+          "At Grateful Web Designs, our goal is to revolutionize the digital
           landscape for small businesses, entrepreneurs, and professionals. We
           believe in a unique and effective web presence for all. Our commitment
           to affordable rates, location-independent work, and life design is

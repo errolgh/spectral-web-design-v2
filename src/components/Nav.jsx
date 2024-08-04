@@ -15,9 +15,9 @@ export default function Nav() {
               <Owl theme="light" />
             </div>
             <div className="flex flex-col text-center justify-center z-10 text-slate-200">
-            <span className="text-xl tracking-widest text-slate-200">Spectral</span>
+            <span className="text-xl tracking-widest text-slate-200">Grateful</span>
             <span className="text-xs tracking-widest uppercase text-slate-200 font-bold">
-              Digital Labs
+              Web Designs
             </span>
             </div>
         </div>

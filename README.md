@@ -6,7 +6,7 @@
   </a>
 </p>
 <h1 align="center">
-  Spectral Digital Labs
+  Grateful Web Designs
 </h1>
 
 ## 🚀 Quick start

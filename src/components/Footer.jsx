@@ -18,9 +18,9 @@ export default function Footer() {
             <Owl theme="light" />
           </div>
           <div className="flex flex-col text-center justify-center z-10 text-slate-200 font-bold">
-            <span className="text-xl tracking-widest text-slate-200">Spectral</span>
+            <span className="text-xl tracking-widest text-slate-200">Grateful</span>
             <span className="text-xs tracking-widest uppercase text-slate-200 font-bold">
-              Digital Labs
+              Web Designs
             </span>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="text-center md:text-left text-neutral-200">
-            <p>© {new Date().getFullYear()} Spectral Digital Labs</p>
+            <p>© {new Date().getFullYear()} Grateful Web Designs</p>
           </div>
         </div>
       </div>
