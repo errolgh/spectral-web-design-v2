@@ -3,24 +3,24 @@ import Layout from '../components/Layout';
 import elite from '../images/elite-device-mockup.png';
 import nevermore from '../images/nevermore-device-mockup.png';
 
-const data = [
-  {
-    title: 'Elite Dialysis Service Ltd.',
-    location: 'May Pen, Jamaica',
-    description:
-      'Elite Dialysis is a medical center situated in the heart of Jamaica, offering a wide range of care to patients across the Caribbean.',
-    image: '',
-    website: 'https://elitedialysisltd.com/',
-  },
-  {
-    title: 'Nevermore Cleaning & Junk Removal',
-    location: 'Baltimore, Maryland',
-    description:
-      'An affordable junk removal and cleaning company. A trusted, go-to, service operating in Baltimore, MD.',
-    image: '',
-    website: 'https://letstalknevermore.com/',
-  },
-];
+// const data = [
+//   {
+//     title: 'Elite Dialysis Service Ltd.',
+//     location: 'May Pen, Jamaica',
+//     description:
+//       'Elite Dialysis is a medical center situated in the heart of Jamaica, offering a wide range of care to patients across the Caribbean.',
+//     image: '',
+//     website: 'https://elitedialysisltd.com/',
+//   },
+//   {
+//     title: 'Nevermore Cleaning & Junk Removal',
+//     location: 'Baltimore, Maryland',
+//     description:
+//       'An affordable junk removal and cleaning company. A trusted, go-to, service operating in Baltimore, MD.',
+//     image: '',
+//     website: 'https://letstalknevermore.com/',
+//   },
+// ];
 
 const PortfolioPage = () => {
   return (
@@ -46,7 +46,7 @@ const PortfolioPage = () => {
               service operating in Baltimore, MD.
             </p>
             <a
-              href="https://letstalknevermore.com/"
+              href="https://www.letstalknevermore.com/"
               target="_blank"
               rel="noreferrer"
             >
@@ -74,7 +74,7 @@ const PortfolioPage = () => {
               Caribbean.
             </p>
             <a
-              href="https://elitedialysisltd.com/"
+              href="https://www.elitedialysisltd.com/"
               target="_blank"
               rel="noreferrer"
             >

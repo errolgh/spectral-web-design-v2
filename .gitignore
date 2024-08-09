@@ -6,3 +6,5 @@ src/api/test.js
 .env.*
 # Local Netlify folder
 .netlify
+.env
+spectralComponents/

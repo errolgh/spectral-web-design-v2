@@ -9,7 +9,7 @@
 // probably from jondjones:
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 // if (process.env.STAGING) {
 //   require("dotenv").config({
@@ -25,7 +25,7 @@ const config = {
   siteMetadata: {
     title: `Grateful Web Designs`,
     // title: `Spectral Web Design v2`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.gratefulwebdesigns.com`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -58,6 +58,25 @@ const config = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        icon: `src/images/svg/owl.png`,
+        favicon: `src/images/svg/owl.png`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
+        display: `standalone`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-env-variables',
+      options: {
+        allowList: ['SERVICE_ID', 'TEMPLATE_ID', 'PUBLIC_KEY'],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
@@ -79,6 +98,6 @@ const config = {
     //   },
     // },
   ],
-}
+};
 
-export default config
+export default config;
