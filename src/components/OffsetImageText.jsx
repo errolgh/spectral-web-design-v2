@@ -23,11 +23,11 @@ export default function OffsetImageText({ image }) {
           </h2>
           <p className="max-w-md mx-auto text-center md:text-left md:mx-0">
             We are an international web development, design and marketing agency
-            based in Baltimore, MD. Our services cater to small businesses and
-            professional individuals who want to grow, and understand that a{' '}
+            based in Baltimore, MD, USA. Our services cater to small businesses and
+            professional individuals who want to grow; and understand that a{' '}
             <em>unique</em> web presence is imperative in this age of
             cookie-cutter, WordPress and Wix sites.{' '}
-            <Link to="/contact">
+            <Link to="/services">
               <b>LEARN MORE</b>
             </Link>
           </p>

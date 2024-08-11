@@ -15,7 +15,7 @@ export default function Hero() {
             Supercharge your digital presence
           </h1>
           <p className="text-md md:text-xl text-center text-slate-300 lg:max-w-md lg:text-left lg:leading-10">
-            Blazing-fast, custom-built, modern websites for businesses,
+            Blazing-fast, custom-built, modern websites small for businesses,
             entrepreneurs & professionals. Designed to inspire.
           </p>
           <div className="mx-auto lg:mx-0">

@@ -54,7 +54,7 @@ const BlogList = () => {
   return (
     <Layout>
       <section className="mt-20 mb-20 px-6 mx-auto max-w-lg md:max-w-xl lg:max-w-6xl">
-        <h1 className="mb-14 text-center">Grateful Web Designs Blog</h1>
+        <h1 className="mb-14 text-center">The Grateful Blog</h1>
         <div className="flex flex-wrap gap-16 justify-center">
           {blogPosts?.map((post) => (
             <div key={post.id}>
@@ -90,3 +90,24 @@ const BlogList = () => {
 }
 
 export default BlogList
+
+export const Head = () => (
+  <>
+    <title>Grateful Web Designs | Blog</title>
+    <link rel="icon" href="/src/images/svg/owl.png"></link>
+    <meta charSet="utf-8" />
+    <meta
+      name="description"
+      content="Supercharge your digital presence. Blazing-fast, custom-built, modern websites for businesses, entrepreneurs & professionals."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="theme-color"
+      content="#000000"
+      media="(prefers-color-scheme: dark)"
+    />
+  </>
+);

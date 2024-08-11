@@ -1,5 +1,5 @@
-import React from 'react'
-import Button from './Button'
+import React from 'react';
+import Button from './Button';
 
 // @TODO: Add teal to isBreakOrContinueStatement
 // idk what the todo above means anymore
@@ -13,10 +13,14 @@ export default function BannerCTA() {
             Boost your digital presence today
           </h5>
           <div className="mx-auto">
-            <Button className="text-white" order="primary">Get Started</Button>
+            <a href="/contact">
+              <Button className="text-white" order="primary">
+                Get Started Today
+              </Button>
+            </a>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

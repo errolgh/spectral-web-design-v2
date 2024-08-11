@@ -1,6 +1,5 @@
-import * as React from 'react'
-import Layout from '../components/Layout'
-import { Link } from 'gatsby'
+import * as React from 'react';
+import Layout from '../components/Layout';
 
 const ServicesPage = () => {
   return (
@@ -12,16 +11,10 @@ const ServicesPage = () => {
         </h2>
         <p className="mb-6">
           We've invested countless hours in web development, using our
-          proprietary library of functional features to create unique page
-          elements that reflect your distinctive brand. Whether it's crafting
-          standard websites, dynamic sites with integrated blogs, or seamless
-          e-commerce solutions through platforms like Shopify and Square, our
+          proprietary features to create unique pages that reflect your
+          distinctive brand. Whether it's crafting standard websites, blogs, or
+          seamless e-commerce solutions through Shopify and Square, our
           experienced team ensures a top-tier online presence for your business.
-        </p>
-        <p className="mb-6">
-          In addition to web development, we offer Google Page Speed
-          enhancements, Google My Business optimization, and expert hosting and
-          server maintenance services to keep your digital presence at its best.
         </p>
 
         <h2 id="web-design" className="mb-4 mt-16">
@@ -29,42 +22,31 @@ const ServicesPage = () => {
         </h2>
         <p className="mb-6">
           At Grateful Web Designs, we take pride in our commitment to crafting
-          contemporary and modern web designs, stunning graphics, and compelling
-          logos that align perfectly with your brand's vision. We understand the
-          importance of creating a visually appealing and user-friendly online
-          presence, as well as eye-catching visuals that make a lasting
-          impression. To ensure your complete satisfaction, we offer multiple
-          rounds of design iterations for all our services, allowing us to
-          fine-tune every detail until you're thrilled with the result. Our goal
-          is to provide you with a comprehensive design package that not only
-          meets your expectations but also showcases your unique identity
-          effectively. We encourage collaboration throughout the design process
-          to achieve the best outcome while maintaining a focus on delivering
-          value and excellence.
+          contemporary and modern web designs, that align perfectly with your
+          brand. We understand the importance of creating a visually appealing
+          and user-friendly online presence, as well as eye-catching visuals
+          that make a lasting impression. To ensure your complete satisfaction,
+          we offer multiple rounds of design iterations for all our services,
+          allowing us to fine-tune every detail until you're thrilled with the
+          result.
         </p>
-        <Link>
-          <b>M. Arthur</b>
-        </Link>
+        <p>
+          Our goal is to provide you with a comprehensive design package that
+          not only meets your expectations but also showcases your unique
+          identity effectively. We encourage collaboration throughout the design
+          process to achieve the best outcome while maintaining a focus on
+          delivering value and excellence.
+        </p>
 
         <h2 id="digital-marketing" className="mb-4 mt-16">
-          Digital Marketing & Blog Writing
+          Digital Visibility
         </h2>
         <p className="mb-6">
           Our approach to digital marketing is multifaceted, tailored to cater
-          to diverse stakeholder needs. From strategically crafted Google Ads
-          and Media Ads campaigns that maximize your online visibility and
-          engagement to precisely targeted PPC ads that drive conversions, we
-          leverage a comprehensive array of tools to achieve your goals.
-          Additionally, our skilled content writing team ensures that our
-          blog-tier stakeholders receive valuable, informative, and engaging
-          content that not only resonates with their audience but also enhances
-          their digital presence and authority. We're committed to delivering
-          results that truly matter to all our stakeholders in the digital
-          marketing realm.
+          to diverse stakeholder needs. We offer Google Analytics insights, Page
+          Speed audits, and expert hosting and server maintenance services to
+          keep your digital presence at its best, ranking on Google, and ultimately getting in front of more customers.
         </p>
-        <Link>
-          <b>M. Arthur</b>
-        </Link>
 
         <h2 id="on-demand" className="mb-4 mt-16">
           On-Demand
@@ -91,13 +73,36 @@ const ServicesPage = () => {
           commitment to understanding and addressing stakeholder concerns, we
           foster a collaborative environment that drives our shared success.
         </p>
-        <Link>
-          <b>Reach out</b>
-        </Link>
+        <a href="/contact">
+          <button>
+            <b>Reach out today</b>
+          </button>
+        </a>
       </section>
     </Layout>
-  )
-}
+  );
+};
 
 // Step 3: Export your component
-export default ServicesPage
+export default ServicesPage;
+
+export const Head = () => (
+  <>
+    <title>Grateful Web Designs | Services</title>
+    <link rel="icon" href="/src/images/svg/owl.png"></link>
+    <meta charSet="utf-8" />
+    <meta
+      name="description"
+      content="Supercharge your digital presence. Blazing-fast, custom-built, modern websites for businesses, entrepreneurs & professionals."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="theme-color"
+      content="#000000"
+      media="(prefers-color-scheme: dark)"
+    />
+  </>
+);

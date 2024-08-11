@@ -40,14 +40,13 @@ const AboutPage = () => {
           <b>Our Services</b>
         </Link>
 
-        <h2 className="text-2xl font-bold mb-4 mt-16">Meet Our Team</h2>
+        <h2 className="text-2xl font-bold mb-4 mt-16">Our Team</h2>
         <p className="mb-6">
           We've cultivated a team of specialists who are passionate about
           crafting exceptional digital experiences in their field. Our diverse
           team brings together a wealth of expertise in web development, design,
           and digital marketing. From coding wizards to creative visionaries,
-          our crew works seamlessly to bring your concepts to life. Meet the
-          innovative minds behind our digital website services — a team
+          our crew works seamlessly to bring your concepts to life. We have a team
           committed to transforming your ideas into stunning, functional, and
           user-friendly websites that set your brand apart.
         </p>
@@ -77,3 +76,24 @@ const AboutPage = () => {
 
 // Step 3: Export your component
 export default AboutPage
+
+export const Head = () => (
+  <>
+    <title>Grateful Web Designs | About</title>
+    <link rel="icon" href="/src/images/svg/owl.png"></link>
+    <meta charSet="utf-8" />
+    <meta
+      name="description"
+      content="Supercharge your digital presence. Blazing-fast, custom-built, modern websites for businesses, entrepreneurs & professionals."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="theme-color"
+      content="#000000"
+      media="(prefers-color-scheme: dark)"
+    />
+  </>
+);

@@ -8,7 +8,7 @@ import Feather from '../images/svg/feather.svg'
 
 const featureList = [
   {
-    title: 'Unlimited Edits',
+    title: 'FREE Unlimited Edits',
     description:
       'If your products or services have changed, you can request any revisions to existing features or copy at anytime, at no extra cost.',
     image: <InfiniteEdits />,
@@ -24,7 +24,7 @@ const featureList = [
   {
     title: 'Hosting Management',
     description:
-      'Hosting maintenance is built into your subscription. Once your website is completed, we will keep it up and running while you focus on your business.',
+      'Hosting maintenance is built into your plan. Once your website is completed, we will keep it up and running while you focus on your business.',
     image: <Hosting />,
     reverse: false,
   },

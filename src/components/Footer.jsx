@@ -162,7 +162,7 @@ export default function Footer() {
         {/*  Social Container 
          @TODO: Add hue-rotate elements that match theme colors: https://codepen.io/sosuke/pen/Pjoqqp */}
         <div className="flex flex-col items-center space-y-4 md:items-start pl-4">
-          <div className="flex space-x-6">
+          {/* <div className="flex space-x-6">
             <a href="/">
               <Facebook />
             </a>
@@ -175,7 +175,7 @@ export default function Footer() {
             <a href="/">
               <Instagram />
             </a>
-          </div>
+          </div> */}
           <div className="text-center md:text-left text-neutral-200">
             <p>© {new Date().getFullYear()} Grateful Web Designs</p>
           </div>

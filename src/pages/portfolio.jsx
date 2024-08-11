@@ -43,7 +43,7 @@ const PortfolioPage = () => {
             <p className="text-xl mb-4">Baltimore, Maryland</p>
             <p className="max-w-md">
               An affordable junk removal and cleaning company. A trusted, go-to,
-              service operating in Baltimore, MD.
+              service operating in the greater Maryland area.
             </p>
             <a
               href="https://www.letstalknevermore.com/"
@@ -91,3 +91,24 @@ const PortfolioPage = () => {
 
 // Step 3: Export your component
 export default PortfolioPage;
+
+export const Head = () => (
+  <>
+    <title>Grateful Web Designs | Portfolio</title>
+    <link rel="icon" href="/src/images/svg/owl.png"></link>
+    <meta charSet="utf-8" />
+    <meta
+      name="description"
+      content="Supercharge your digital presence. Blazing-fast, custom-built, modern websites for businesses, entrepreneurs & professionals."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="theme-color"
+      content="#000000"
+      media="(prefers-color-scheme: dark)"
+    />
+  </>
+);

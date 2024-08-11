@@ -1,12 +1,12 @@
-import * as React from 'react'
-import Layout from '../components/Layout.jsx'
-import Hero from '../components/Hero.jsx'
-import OffsetImageText from '../components/OffsetImageText.jsx'
-import ThreeIconFeatures from '../components/ThreeIconFeatures.jsx'
-import PitchIconDescription from '../components/PitchIconDescription.jsx'
-import HorizontalFeatureImage from '../components/HorizontalFeatureImage.jsx'
-import BannerCTA from '../components/BannerCTA.jsx'
-import PricingMatrix from '../components/PricingMatrix.jsx'
+import * as React from 'react';
+import Layout from '../components/Layout.jsx';
+import Hero from '../components/Hero.jsx';
+import OffsetImageText from '../components/OffsetImageText.jsx';
+import ThreeIconFeatures from '../components/ThreeIconFeatures.jsx';
+import PitchIconDescription from '../components/PitchIconDescription.jsx';
+import HorizontalFeatureImage from '../components/HorizontalFeatureImage.jsx';
+import BannerCTA from '../components/BannerCTA.jsx';
+import PricingMatrix from '../components/PricingMatrix.jsx';
 
 // @TODO: Reusable components: Change all these components to use props. This will keep our code dry by importing each variation to pages, with data imports
 // @TODO: Gatsby Image optimization SOLUTION: https://www.youtube.com/watch?v=dJ1EslHwXu0&ab_channel=Gatsby
@@ -14,7 +14,7 @@ import PricingMatrix from '../components/PricingMatrix.jsx'
 // @TODO: Perfect typography/colors via theming/tailwind-config.ts
 // @TODO: Dark Mode via TailwindCSS
 // @TODO: On-Scroll Animations
-// @TODO: Use this for the SEO stuff I ripped out earlier CodeSandbox: https://codesandbox.io/s/gatsby-framer-motion-layout-transition-bgldj?from-embed=&file=/src/pages/page-2.js
+
 // @TODO: Add tailwind x prettier plugin --dev
 // @FIXME: just a reminder this highlighting exists on my vscode :)
 
@@ -29,7 +29,28 @@ const IndexPage = () => {
       <BannerCTA />
       <PricingMatrix />
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
+
+export const Head = () => (
+  <>
+    <title>Grateful Web Designs | Home</title>
+    <link rel="icon" href="/src/images/svg/owl.png"></link>
+    <meta charSet="utf-8" />
+    <meta
+      name="description"
+      content="Supercharge your digital presence. Blazing-fast, custom-built, modern websites for businesses, entrepreneurs & professionals."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="theme-color"
+      content="#000000"
+      media="(prefers-color-scheme: dark)"
+    />
+  </>
+);
