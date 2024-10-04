@@ -12,9 +12,9 @@ const ServicesPage = () => {
         <p className="mb-6">
           We've invested countless hours in web development, using our
           proprietary features to create unique pages that reflect your
-          distinctive brand. Whether it's crafting standard websites, blogs, or
-          seamless e-commerce solutions through Shopify and Square, our
-          experienced team ensures a top-tier online presence for your business.
+          distinctive brand. Whether it's crafting standard websites and blog
+          solutions, our experienced team ensures a top-tier online presence for
+          your business.
         </p>
 
         <h2 id="web-design" className="mb-4 mt-16">
@@ -45,7 +45,8 @@ const ServicesPage = () => {
           Our approach to digital marketing is multifaceted, tailored to cater
           to diverse stakeholder needs. We offer Google Analytics insights, Page
           Speed audits, and expert hosting and server maintenance services to
-          keep your digital presence at its best, ranking on Google, and ultimately getting in front of more customers.
+          keep your digital presence at its best, ranking on Google, and
+          ultimately getting in front of more customers.
         </p>
 
         <h2 id="on-demand" className="mb-4 mt-16">
@@ -73,6 +74,26 @@ const ServicesPage = () => {
           commitment to understanding and addressing stakeholder concerns, we
           foster a collaborative environment that drives our shared success.
         </p>
+
+        <h2 id="google-ads" className="mb-4 mt-16">
+          Google Ads Campaign Management
+        </h2>
+        <p className="mb-6">
+          Our Google Ads Campaign Management services are designed to drive
+          traffic, increase conversions, and maximize your return on investment.
+          We focus on:
+          <ul className="list-disc list-inside">
+            <li>Comprehensive keyword research and optimization</li>
+            <li>Creating and refining targeted ad campaigns</li>
+            <li>
+              Ongoing monitoring and adjustments to ensure peak performance
+            </li>
+            <li>Detailed reporting and analytics to track your success</li>
+          </ul>
+          Partner with us to harness the power of Google Ads and bring more
+          qualified leads to your business.
+        </p>
+
         <a href="/contact">
           <button>
             <b>Reach out today</b>

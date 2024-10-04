@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Button from './Button'
-import FeatherOpen from '../images/svg/feather-open.svg'
+import React from 'react';
+import { Link } from 'gatsby';
+import Button from './Button';
+import FeatherOpen from '../images/svg/feather-open.svg';
 
 export default function PricingMatrix() {
   return (
@@ -14,7 +14,7 @@ export default function PricingMatrix() {
         </div>
         <div className="text-gray-700 price-boxes">
           <div className="price-box">
-            <h3>Standard</h3>
+            <h3 className='text-center'>Standard</h3>
             <span>Up to 5 Pages</span>
             <p>$149</p>
             <ul>
@@ -29,7 +29,7 @@ export default function PricingMatrix() {
           </div>
 
           <div className="price-box price-box-premium">
-            <h3>Standard + Blogging</h3>
+            <h3 className='text-center'>Standard + Blogging</h3>
             <span>Starting At</span>
             <p>$199</p>
             <ul>
@@ -44,14 +44,14 @@ export default function PricingMatrix() {
           </div>
 
           <div className="price-box">
-            <h3>E-commerce</h3>
+            <h3 className='text-center'>Google Ads</h3>
             <span>Starting At</span>
-            <p>$349</p>
+            <p>$449</p>
             <ul>
-              <li>Store Front</li>
-              <li>Cart & Checkout Feature</li>
-              <li>Shopify Integration</li>
-              <li>Content Management Portal</li>
+              <li>Keyword Optimization</li>
+              <li>Audience Segmentation</li>
+              <li>Ad Creation & Writing</li>
+              <li>Monitoring & Reporting</li>
             </ul>
             <Link to="/services">
               <Button order="primary">Learn More</Button>
@@ -60,5 +60,5 @@ export default function PricingMatrix() {
         </div>
       </div>
     </section>
-  )
+  );
 }
