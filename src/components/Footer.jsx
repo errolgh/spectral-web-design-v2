@@ -107,6 +107,14 @@ export default function Footer() {
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
               <AnchorLink
+                to="/services#google-ads"
+                className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
+              >
+                Google Ads
+              </AnchorLink>
+            </div>
+            <div className="flex flex-col items-center space-y-3 md:items-start">
+              <AnchorLink
                 to="/services#on-demand"
                 className="capitalize text-neutral-200 mb-1 hover:text-teal-400"
               >
