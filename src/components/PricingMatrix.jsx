@@ -31,10 +31,10 @@ export default function PricingMatrix() {
           <div className="price-box price-box-premium">
             <h3 className='text-center'>Standard + GBP Management</h3>
             <span>Starting At</span>
-            <p>$199</p>
+            <p>$399</p>
             <ul>
               <li>Everything Included in Standard</li>
-              <li>Google Analytics</li>
+              <li>Business Page Analytics</li>
               <li>Ongoing Google Business Profile Optimization</li>
               <li>Google Maps & Listing Management</li>
             </ul>
