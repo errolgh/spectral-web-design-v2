@@ -13,6 +13,7 @@ import emailjs from '@emailjs/browser';
 import * as yup from 'yup';
 import FeatherOpen from '../../images/svg/feather-open.svg';
 import { useFormik } from 'formik';
+import { Link } from 'gatsby';
 
 const phoneRegExp = /^(\+\d{1,4}[\s-]?)?(\(\d{2,3}\)[\s-]?)?[\d\s-]{3,15}$/;
 
