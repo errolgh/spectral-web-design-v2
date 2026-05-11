@@ -29,14 +29,14 @@ export default function PricingMatrix() {
           </div>
 
           <div className="price-box price-box-premium">
-            <h3 className='text-center'>Standard + Blogging</h3>
+            <h3 className='text-center'>Standard + GBP Management</h3>
             <span>Starting At</span>
             <p>$199</p>
             <ul>
-              <li>All of Standard</li>
+              <li>Everything Included in Standard</li>
               <li>Google Analytics</li>
-              <li>Secure Content Creation Portal</li>
-              <li>Blog Page</li>
+              <li>Ongoing Google Business Profile Optimization</li>
+              <li>Google Maps & Listing Management</li>
             </ul>
             <Link to="/services">
               <Button order="primary">Learn More</Button>
@@ -44,14 +44,14 @@ export default function PricingMatrix() {
           </div>
 
           <div className="price-box">
-            <h3 className='text-center'>Google Ads</h3>
-            <span>Starting At</span>
-            <p>$449</p>
+            <h3 className='text-center'>Google Business Profile Audit</h3>
+            <span>Right Now it's</span>
+            <p>FREE</p>
             <ul>
               <li>Keyword Optimization</li>
-              <li>Audience Segmentation</li>
-              <li>Ad Creation & Writing</li>
-              <li>Monitoring & Reporting</li>
+              <li>Audience Targeting</li>
+              <li>Profile Creation & Writing</li>
+              <li>Error Identification</li>
             </ul>
             <Link to="/services">
               <Button order="primary">Learn More</Button>
