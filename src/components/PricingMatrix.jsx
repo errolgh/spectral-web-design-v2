@@ -45,7 +45,7 @@ export default function PricingMatrix() {
 
           <div className="price-box">
             <h3 className='text-center'>Google Business Profile Audit</h3>
-            <span>Right Now it's</span>
+            <span>One Time</span>
             <p>FREE</p>
             <ul>
               <li>Keyword Optimization</li>
