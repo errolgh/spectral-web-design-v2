@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import {
-  // IoLogoFacebook,
-  // IoLogoInstagram,
+  IoLogoFacebook,
+  IoLogoInstagram,
   // IoLogoTwitter,
   // IoLogoLinkedin,
   IoCall,
@@ -92,34 +92,34 @@ const ContactForm = () => {
             <a href="sms:+14432652555">
               <div className="inline-flex space-x-2 items-center">
                 <IoCall className="text-teal-500 text-xl" />
-                <span className="text-gray-600">(443) 265-2555</span>
+                <span className="text-gray-600">(919) 443-5270</span>
               </div>
             </a>
             <a href="mailto:info@gratefulwebdesigns.com">
               <div className="inline-flex space-x-2 items-center">
                 <IoMailSharp className="text-teal-500 text-xl" />
-                <span className="text-gray-600">info@GratefulWebDesigns</span>
+                <span className="text-gray-600">Hello@GratefulWebDesigns.com</span>
               </div>
             </a>
             <div className="inline-flex space-x-2 items-center">
               <IoLocationSharp className="text-teal-500 text-xl" />
-              <span className="text-gray-600">Remote</span>
+              <span className="text-gray-600">Durham, NC</span>
             </div>
           </div>
-          {/* <div className="flex text-lg space-x-4 text-teal-500">
-            <Link to="/">
+          <div className="flex text-lg space-x-4 text-teal-500">
+            <Link to="https://www.facebook.com/people/Grateful-Web-Designs/">
               <IoLogoFacebook />
             </Link>
-            <Link to="/">
+            {/* <Link to="/">
               <IoLogoTwitter />
             </Link>
             <Link to="/">
               <IoLogoLinkedin />
-            </Link>
-            <Link to="/">
+            </Link> */}
+            <Link to="https://www.instagram.com/gratefulwebdesigns/">
               <IoLogoInstagram />
             </Link>
-          </div> */}
+          </div>
         </div>
         <div>
           <div className="relative bg-white shadow-lg rounded-xl p-8 text-gray-600 h-full">

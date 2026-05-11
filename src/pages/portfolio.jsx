@@ -40,10 +40,10 @@ const PortfolioPage = () => {
             <h2 className="text-2xl font-bold mb-2">
               Nevermore Cleaning & Junk Removal
             </h2>
-            <p className="text-xl mb-4">Baltimore, Maryland</p>
+            <p className="text-xl mb-4">Durham, North Carolina</p>
             <p className="max-w-md">
               An affordable junk removal and cleaning company. A trusted, go-to,
-              service operating in the greater Maryland area.
+              service operating in the greater Durham area.
             </p>
             <a
               href="https://www.letstalknevermore.com/"
