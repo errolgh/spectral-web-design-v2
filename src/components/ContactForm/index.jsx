@@ -108,7 +108,7 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="flex text-lg space-x-4 text-teal-500">
-            <Link to="https://www.facebook.com/people/Grateful-Web-Designs/">
+            <Link to="https://www.facebook.com/profile.php?id=61590019586422">
               <IoLogoFacebook />
             </Link>
             {/* <Link to="/">
